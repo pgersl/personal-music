@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
 :root {
     --main-clr1: #131006;
     --main-clr2: #FDFDFA;
     --accent-clr1: #C1A644;
+    --overlay-clr: #0000006b;
+    --font: 'Prompt', sans-serif;
+    --font-size: 15px;
+    --mega-size: 250px;
 }

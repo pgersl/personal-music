@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    background-color: var(--main-clr2);
+    width: 100vw;
+    font-family: var(--font);
+    overflow-x: hidden;
+}
+:focus {
+    outline: none;
+}
+
+/* BASE LAYOUT */

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{partial "head.html" .}}
+    <link rel="stylesheet" href="/css/home.css">    
+</head>
+<body>
+    <div class="home-content">
+        <div class="home-header">
+            <div class="home-header-title">
+                music.
+            </div>
+            <div class="home-header-description">
+                by <a class="home-header-description-link" href="https://pgersl.xyz/">Petr Geršl</a>
+            </div>
+            <div class="home-header-description">
+                A site for the music I create.
+            </div>
+        </div>
+        <div class="home-nav">
+            <div class="home-nav-content">
+                {{range .Site.Menus.main}}
+                    <a class="home-nav-link" href="{{.URL}}">
+                        {{.Name}}
+                    </a>
+                {{end}}
+            </div>
+        </div>
+        <div class="footer">
+            
+        </div>
+    </div>
+</body>
+</html>

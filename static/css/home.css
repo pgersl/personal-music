@@ -1,0 +1,26 @@
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--overlay-clr);
+    background-image: url(/media/img/main/home.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.home-header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.home-header-title {
+    width: 100%;
+    font-size: var(--mega-size);
+    font-weight: bold;
+    color: var(--main-clr2);
+    line-height: 250px;
+}
