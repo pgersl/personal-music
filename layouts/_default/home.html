@@ -7,28 +7,35 @@
 <body>
     <div class="home-content">
         <div class="home-header">
-            <div class="home-header-title">
-                music.
-            </div>
-            <div class="home-header-description">
-                by <a class="home-header-description-link" href="https://pgersl.xyz/">Petr Geršl</a>
-            </div>
-            <div class="home-header-description">
-                A site for the music I create.
+            <div class="home-header-content">
+                <div class="home-header-title">
+                    Petr Geršl
+                </div>
+                <div class="home-header-description">
+                    A site for the music I create.
+                </div>
             </div>
         </div>
         <div class="home-nav">
             <div class="home-nav-content">
                 {{range .Site.Menus.main}}
-                    <a class="home-nav-link" href="{{.URL}}">
-                        {{.Name}}
-                    </a>
+                    <div class="home-nav-link-container">
+                        <a class="home-nav-link" href="{{.URL}}">
+                            {{.Name}}
+                        </a>
+                        <div class="home-nav-link-content">
+                            {{.Identifier}}
+                        </div>
+                    </div>
                 {{end}}
             </div>
         </div>
-        <div class="footer">
-            
+        <div class="home-news">
+
         </div>
+        <footer>
+            {{partial "footer.html" .}}
+        </footer>
     </div>
 </body>
 </html>

@@ -1,0 +1,17 @@
+<div class="nav-content">
+    <div class="nav-content-wrap">
+        <a class="nav-content-title nav-link" href="{{.Site.BaseURL}}">
+            Petr Geršl
+        </a>
+        <button id="nav-toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </div>
+    <div class="nav-links">
+        {{range .Site.Menus.main}}
+            <a class="nav-link" href="{{.URL}}">
+                {{.Name}}
+            </a>
+        {{end}}
+    </div>
+</div>

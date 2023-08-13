@@ -15,22 +15,22 @@ enableEmoji = "true"
     publishDate = ['publishDate', 'date']
 [menus]
     [[menus.main]]
-        identifier = "about"
         name = "About"
         url = "/about"
         weight = "1"
+        identifier = "Read about this site and everything you can find on it. Find out, how the site works and look on its updates throughout time. Read about me, Petr Geršl."
     [[menus.main]]
-        identifier = "posts"
         name = "Posts"
         url = "/posts"
         weight = "2"
+        identifier = "Read about the music I create, what I am up to and latest updates on my work."
     [[menus.main]]
-        identifier = "compositions"
         name = "Compositions"
         url = "/compositions"
         weight = "3"
+        identifier = "Listen to my pieces and find out more about each one of them."
     [[menus.main]]
-        identifier = "biography"
-        name = "Biography"
-        url = "/biography"
+        name = "Support"
+        url = "/support"
         weight = "4"
+        identifier = "Consider supporting me and what I am doing via sharing my work, or, if you really enjoy what I create, through personal donations and using Bandcamp."

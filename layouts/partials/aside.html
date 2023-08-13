@@ -1,0 +1,27 @@
+<div class="aside-content">
+    <div class="aside-content-photo">
+        <img src="/media/img/main/me.jpg">
+    </div>
+    <div class="aside-content-post">
+        <h4>Newest post</h4>
+        {{range where .Site.Pages ".Params.type" "==" "post" | first 1}}
+            <a class="aside-content-title" href="{{.RelPermalink}}">
+                {{.Title}}
+            </a>
+            <div class="aside-content-show">
+                {{.Params.show}}
+            </div>
+        {{end}}
+    </div>
+    <div class="aside-content-composition">
+        <h4>Newest composition</h4>
+        {{range where .Site.Pages ".Params.type" "==" "composition" | first 1}}
+            <a class="aside-content-title" href="{{.RelPermalink}}">
+                {{.Title}}
+            </a>
+            <div class="aside-content-show">
+                {{.Params.show}}
+            </div>
+        {{end}}
+    </div>
+</div>

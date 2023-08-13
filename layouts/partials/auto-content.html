@@ -1,0 +1,42 @@
+{{if eq .Params.list "posts"}}
+    {{range where .Site.Pages ".Params.type" "==" "post"}}
+        <div class="post-card">
+            <div class="post-card-info">
+                <a class="post-card-link" href="{{.RelPermalink}}">{{.Title}}</a>
+                <div class="post-card-date">{{.Date | time.Format "02. 01. 2006"}}</div>
+            </div>
+            <div class="post-card-show">{{.Params.show}}</div>
+        </div>
+    {{end}}
+{{end}}
+{{if eq .Params.list "compositions"}}
+    {{range where .Site.Pages ".Params.type" "==" "composition"}}
+        <div class="composition-card">
+            <div class="composition-card-info">
+                <a class="composition-card-link" href="{{.RelPermalink}}">{{.Title}}</a>
+                <div class="composition-card-length"><i class="fa-regular fa-clock"></i> {{.Params.length}}</div>
+            </div>
+            <div class="composition-card-date">{{.Params.start}}{{with .Params.end}} - {{.}}{{end}}</div>
+            <div class="composition-card-excerpt">
+                <p>Excerpt:</p>
+                <div class="audio">
+                    <audio src="{{.Params.excerpt}}"></audio>
+                    <button class="play-pause-btn">
+                        <i class="play-pause-icon fa-solid fa-play"></i>
+                    </button>
+                    <button class="volume-btn">
+                        <i class="volume-icon fa-solid fa-volume-high"></i>
+                    </button>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar"></div>
+                        <div class="progress-bar-click"></div>
+                    </div>
+                    <div class="progress-time">
+                        <span class="current-time">0:00</span>/<span class="length-time">0:00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="composition-card-show">{{.Params.show}}</div>
+        </div>
+    {{end}}
+{{end}}

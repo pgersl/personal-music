@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{partial "head.html" .}}
+</head>
+<body>
+    <header></header>
+    <nav>
+        {{partial "nav.html" .}}
+    </nav>
+    <div class="content-container">
+        <div class="column">
+            <main>
+                <div class="main-content">
+                    <div class="main-content-title">
+                        {{.Title}}
+                    </div>
+                    {{if eq .Params.info true}}
+                        <div class="main-content-info">
+                            <div class="main-content-info-content">
+                                {{with .Date}}
+                                    <div class="info-date">{{. | time.Format "02/01/2006"}}</div>
+                                {{end}}
+                            </div>
+                        </div>
+                    {{end}}
+                    <div class="main-content-container">
+                        {{.Content}}
+                    </div>
+                    <div class="main-auto-content">
+                        {{partial "auto-content.html" .}}
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div class="column">
+            <aside>
+                {{partial "aside.html" .}}
+            </aside>
+        </div>
+    </div>
+    <footer>
+        {{partial "footer.html" .}}
+    </footer>
+</body>
+</html>

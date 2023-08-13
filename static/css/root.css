@@ -1,11 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 
 :root {
-    --main-clr1: #131006;
+    --main-clr1: #000000;
     --main-clr2: #FDFDFA;
+    --main-clr3: #979796;
     --accent-clr1: #C1A644;
-    --overlay-clr: #0000006b;
+    --accent-clr2: #CDB769;
+    --accent-clr3: #4D421B;
+    --accent-clr4: #605322;
+    --accent-clr5: #F2EDD9;
+    --accent-clr6: #E6DBB4;
+    --main-overlay-clr: #00000094;
+    --accent-overlay-clr: #c1a64442;
     --font: 'Prompt', sans-serif;
     --font-size: 15px;
-    --mega-size: 250px;
+    --h1-size: 30px;
+    --h2-size: 27px;
+    --h3-size: 24px;
+    --h4-size: 21px;
+    --h5-size: 18px;
+    --title-size: 40px;
+    --mega-size: 150px;
+    --tiny-size: 12px;
+    --transition: all 150ms;
+    --border-1: 2px solid var(--main-clr1);
+    --border-2: 2px solid var(--main-clr2);
+    --border-3: 2px solid var(--accent-clr1)
 }
