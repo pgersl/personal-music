@@ -26,6 +26,12 @@ I am an amateur composer and I don't have enough capital or know-how to record m
 
 This site was created in the summer of 2023 as a part of a larger web development project of mine, which was redesigning my old website and creating several new ones for easier content management (read more in [this article](https://pgersl.xyz/articles/big-changes-coming/)).
 
-The site's design is minimal in nature so that your focus is on the music and not everything around it. It employs some lightweight javascript which I coded all by myself and learned a lot by doing it.
+The site's design is minimal in nature so your focus is on the music and not everything around it. It employs some lightweight javascript which I coded all by myself and learned a lot by doing it.
 
 The code for this site is open source and can be found [here]().
+
+# Copyright
+
+This site is released under CC BY-NC-ND license. This means, that you are allowed to share anything you find here, but you MUST GIVE CREDIT. You don't have to ask to share my music, but if you want to use it in a project of your own, please contact me and we'll figure out the details together. Otherwise, refer to the [license](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.txt).
+
+You are allowed to copy the source code of this website even without giving me credit.
