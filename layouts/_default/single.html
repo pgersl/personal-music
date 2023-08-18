@@ -18,9 +18,7 @@
                     {{if eq .Params.info true}}
                         <div class="main-content-info">
                             <div class="main-content-info-content">
-                                {{with .Date}}
-                                    <div class="info-date">{{. | time.Format "02/01/2006"}}</div>
-                                {{end}}
+                                {{partial "info.html" .}}
                             </div>
                         </div>
                     {{end}}

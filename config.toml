@@ -30,7 +30,12 @@ enableEmoji = "true"
         weight = "3"
         identifier = "Listen to my pieces and find out more about each one of them."
     [[menus.main]]
+        name = "Discography"
+        url = "/discography"
+        weight = "4"
+        identifier = "Browse my collections of compositions by albums."
+    [[menus.main]]
         name = "Support"
         url = "/support"
-        weight = "4"
+        weight = "5"
         identifier = "Consider supporting me and what I am doing via sharing my work, or, if you really enjoy what I create, through personal donations and using Bandcamp."

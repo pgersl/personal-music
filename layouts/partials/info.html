@@ -1,0 +1,23 @@
+{{if eq .Params.type "post"}}
+    <div class="info-item">Published: {{. | time.Format "02/01/2006"}}</div>
+{{end}}
+{{if eq .Params.type "composition"}}
+    <div class="info-item">Written: {{.Params.start}}{{with .Params.end}} - {{.}}{{end}}</div>
+    <div class="info-item">Length: {{.Params.length}}</div>
+{{end}}
+{{if eq .Params.type "album"}}
+    <div class="info-album">
+        <div class="info-items">
+            <div class="info-item">Released: {{.Params.Date | time.Format "02/01/2006"}}</div>
+            <div class="info-item">Length: {{.Params.length}}</div>
+            <div class="info-item">Tracks: {{.Params.tracks}}</div>
+            <div class="info-item">
+                Available on:
+                <span><a href="{{.Params.audiocom}}" target="_blank">audio.com</a>,</span> 
+                <span><a href="{{.Params.bandcamp}}" target="_blank">bandcamp</a>,</span> 
+                {{if .Params.patreon}}<span><a href="https://patreon.com/user?u=98919388" target="_blank">patreon</a></span>{{end}}
+            </div>
+            </div>
+        <img src="{{.Params.cover}}">
+    </div>
+{{end}}

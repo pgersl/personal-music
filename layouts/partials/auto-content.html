@@ -10,20 +10,44 @@
     {{end}}
 {{end}}
 {{if eq .Params.list "compositions"}}
-    <h3>Orchestral</h3>
+    <h1>Orchestral</h1>
     {{range where .Site.Pages ".Params.ensemble" "==" "orchestral"}}
         {{partial "composition-card.html" .}}
     {{end}}
-    <h3>Concertante</h3>
+    <h1>Concertante</h1>
     {{range where .Site.Pages ".Params.ensemble" "==" "concertante"}}
         {{partial "composition-card.html" .}}
     {{end}}
-    <h3>Piano</h3>
+    <h1>Piano</h1>
     {{range where .Site.Pages ".Params.ensemble" "==" "piano"}}
         {{partial "composition-card.html" .}}
     {{end}}
-    <h3>Chamber/Ensemble</h3>
+    <h1>Chamber/Ensemble</h1>
     {{range where .Site.Pages ".Params.ensemble" "==" "ensemble"}}
         {{partial "composition-card.html" .}}
+    {{end}}
+{{end}}
+{{if eq .Params.list "albums"}}
+    {{range where .Site.Pages ".Params.type" "==" "album" }}
+        <div class="album-card">
+            <div class="album-card-content">
+                <div class="album-cover">
+                    <img src="{{.Params.cover}}">
+                </div>
+                <div class="album-content">
+                    <div class="album-title"><a class="album-title-link" href="{{.RelPermalink}}">{{.Title}}</a></div>
+                    <div class="album-item">Released: {{.Params.Date | time.Format "02/01/2006"}}</div>
+                    <div class="album-item">Length: {{.Params.length}}</div>
+                    <div class="album-item">Tracks: {{.Params.tracks}}</div>
+                    <div class="album-item">Featuring: {{.Params.featuring}}</div>
+                    <div class="album-item">
+                        Available on:
+                        <span><a href="{{.Params.audiocom}}">audio.com</a>,</span> 
+                        <span><a href="{{.Params.bandcamp}}">bandcamp</a>,</span> 
+                        {{if .Params.patreon}}<span><a href="https://patreon.com/user?u=98919388">patreon</a></span>{{end}}
+                    </div>
+                </div>
+            </div>
+        </div>
     {{end}}
 {{end}}

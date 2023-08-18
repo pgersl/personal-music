@@ -11,6 +11,7 @@
     --accent-clr5: #F2EDD9;
     --accent-clr6: #E6DBB4;
     --main-overlay-clr: #00000094;
+    --shadow-clr: #0000003b;
     --accent-overlay-clr: #c1a64442;
     --font: 'Prompt', sans-serif;
     --font-size: 15px;
@@ -26,4 +27,30 @@
     --border-1: 2px solid var(--main-clr1);
     --border-2: 2px solid var(--main-clr2);
     --border-3: 2px solid var(--accent-clr1)
+}
+@media (max-width: 485px) {
+    :root {
+        --font-size: 13px;
+        --h1-size: 24px;
+        --h2-size: 22px;
+        --h3-size: 19px;
+        --h4-size: 17px;
+        --h5-size: 15px;
+        --title-size: 30px;
+        --mega-size: 150px;
+        --tiny-size: 9px;
+    }
+}
+@media (max-width: 355px) {
+    :root {
+        --font-size: 11px;
+        --h1-size: 20px;
+        --h2-size: 18px;
+        --h3-size: 16px;
+        --h4-size: 14px;
+        --h5-size: 12px;
+        --title-size: 25px;
+        --mega-size: 150px;
+        --tiny-size: 8px;
+    }
 }

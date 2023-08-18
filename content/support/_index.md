@@ -7,8 +7,6 @@ Your support is greatly appreciated. If you do find my music pleasing, you can s
 
 # Listening {{< icon-link href="https://audio.com/petr-gersl" target="_blank" icon="fa-solid fa-record-vinyl" >}}
 
-**AVAILABLE SOON!**
-
 By simply listening to my music, you are fulfilling its purpose. Otherwise, what is the purpose of music nobody listens to?
 
 # Sharing
@@ -17,13 +15,9 @@ By sharing my music anywhere you think is appropriate, you are getting my name o
 
 # Purchasing {{< icon-link href="https://pgersl.bandcamp.com/" target="_blank" icon="fa-brands fa-bandcamp" >}}
 
-**AVAILABLE SOON!**
-
 You can support me financially by purchasing my music on Bandcamp. You can find all my tracks there (exported from Musescore) and support me and Bandcamp by buying them. This way you not only help me grow my financial independence, but you are also supporting a platform for creators like me and many others. Thank you very much!
 
 # Patreon {{< icon-link href="https://patreon.com/user?u=98919388" target="_blank" icon="fa-brands fa-patreon" >}}
-
-**AVAILABLE SOON!**
 
 You can support me financially by subscribing to my Patreon. There are several three subscriptions for you to choose from:
 

@@ -6,6 +6,10 @@
     justify-content: center;
     gap: 1em;
     width: 100%;
+    margin: 1em 0;
+}
+.composition-card .audio {
+    margin: 0;
 }
 .play-pause-btn, .volume-btn {
     border: none;
