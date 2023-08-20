@@ -23,4 +23,4 @@ This is not where it ends now. I still have more than 10 hours of music to post 
 
 # Plans Are Huge!
 
-I am currently working on releasing my music on Spotify, Youtube and some other platforms with more active users. We'll see where this all goes, stay tuned for further announcements!
+I am currently working on releasing my music on Spotify, Youtube and some other platforms with more active users. I am also working on the scores for my music so that it can be reproduced. We'll see where this all goes, stay tuned for further announcements!
