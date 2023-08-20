@@ -17,7 +17,7 @@ info: true
 
 # Analysis
 
-Composition No. 3 is highly reductionistic. It is based on a common tone harmonic movement between F major and F minor. This movement is also very typical of numerous pieces by Philip Glass. The score is divided into 9 sections (marked in the score) where various patterns of this harmonic movement are played. The last section is based on only three chords: Fmaj9, Fm9 and Fmaj7. This resolution is not very firm (it could further continue perhaps like this: I6 - V7 - I, or even: I6 - vii7b5 - V7 - I/V), but that was not the intention. The ending now seems to suggest that there is something more coming after.
+Composition No. 3 is highly reductionistic. It is based on a common tone harmonic movement between F major and F minor. This movement is also very typical of numerous pieces by Philip Glass. The score is divided into 9 sections (marked in the score) where various patterns of this harmonic movement are played. The last section is based on only three chords: F<sup>maj9</sup>, F<sup>m9</sup> and F<sup>maj7</sup>. This resolution is not very firm (it could further continue perhaps like this: I<sup>6</sup> - V<sup>7</sup> - I, or even: I<sup>6</sup> - vii<sup>m7&#9837;5</sup> - V<sup>7</sup> - I/V), but that was not the intention. The ending now seems to suggest that there is something more coming after.
 
 # Rewrites
 

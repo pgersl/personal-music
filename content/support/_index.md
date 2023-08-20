@@ -3,7 +3,7 @@ title: Support
 layout: single
 type: index
 ---
-Your support is greatly appreciated. If you do find my music pleasing, you can show your support via different means.
+Your support is greatly appreciated. If you do find my music interesting and worthwhile, you can show your support via different means.
 
 # Listening {{< icon-link href="https://audio.com/petr-gersl" target="_blank" icon="fa-solid fa-record-vinyl" >}}
 

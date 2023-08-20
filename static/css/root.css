@@ -23,6 +23,7 @@
     --title-size: 40px;
     --mega-size: 150px;
     --tiny-size: 12px;
+    --super-size: 10px;
     --transition: all 150ms;
     --border-1: 2px solid var(--main-clr1);
     --border-2: 2px solid var(--main-clr2);
@@ -39,6 +40,7 @@
         --title-size: 30px;
         --mega-size: 150px;
         --tiny-size: 9px;
+        --super-size: 7px;
     }
 }
 @media (max-width: 355px) {
@@ -52,5 +54,6 @@
         --title-size: 25px;
         --mega-size: 150px;
         --tiny-size: 8px;
+        --super-size: 6px;
     }
 }

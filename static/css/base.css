@@ -64,6 +64,10 @@ p {
     letter-spacing: 0px;
     line-height: calc(var(--font-size) * 1.4);
 }
+sup {
+    vertical-align: super;
+    font-size: var(--super-size);
+}
 blockquote {
     background-color: var(--accent-clr5);
     margin-bottom: 1em;

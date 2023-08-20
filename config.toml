@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Petr Geršl - Music"
 uglyURLs = "false"
 enableEmoji = "true"
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = "true"
 [params]
     description = "The official website of Petr Geršl dedicated to his music"
 [outputs]
