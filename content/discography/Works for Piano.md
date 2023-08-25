@@ -10,6 +10,7 @@ featuring: "Compositions Nos. 1 - 15, Piano Sonata No. 1"
 audiocom: "https://audio.com/petr-gersl/collections/gersl-works-for-piano"
 bandcamp: "https://pgersl.bandcamp.com/album/ger-l-works-for-piano"
 patreon: true
+yt: "https://youtube.com/playlist?list=PLp-T61mPZVKZcpXttpn6PVVKO1qK--IFq&si=v6aEVTJd9TVfRQKA"
 info: true
 ---
 
