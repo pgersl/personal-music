@@ -1,16 +1,16 @@
-body::-webkit-scrollbar, .sidebar::-webkit-scrollbar, #search::-webkit-scrollbar {
+body::-webkit-scrollbar, aside::-webkit-scrollbar, #search::-webkit-scrollbar {
     width: 0em;
   }
-  body::-webkit-scrollbar-thumb, .sidebar::-webkit-scrollbar-thumb, #search::-webkit-scrollbar-thumb {
+  body::-webkit-scrollbar-thumb, aside::-webkit-scrollbar-thumb, #search::-webkit-scrollbar-thumb {
     background-color: transparent;
   }
   
-  body::-webkit-scrollbar-track, .sidebar::-webkit-scrollbar-track, #search::-webkit-scrollbar-track {
+  body::-webkit-scrollbar-track, aside::-webkit-scrollbar-track, #search::-webkit-scrollbar-track {
     background-color: transparent;
   }
-  body, .sidebar, #search {
+  body, aside, #search {
     scrollbar-width: none;
   }
-  body, .sidebar, #search {
+  body, aside, #search {
     overflow: -moz-scrollbars-none;
   }

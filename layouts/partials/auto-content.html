@@ -1,8 +1,8 @@
 {{if eq .Params.list "posts"}}
     {{range where .Site.Pages ".Params.type" "==" "post"}}
-        <div class="post-card">
+        <div class="post-card filter-item">
             <div class="post-card-info">
-                <a class="post-card-link" href="{{.RelPermalink}}">{{.Title}}</a>
+                <a class="post-card-link filter-item-title" href="{{.RelPermalink}}">{{.Title}}</a>
                 <div class="post-card-date">{{.Date | time.Format "02. 01. 2006"}}</div>
             </div>
             <div class="post-card-show">{{.Params.show}}</div>
@@ -29,13 +29,13 @@
 {{end}}
 {{if eq .Params.list "albums"}}
     {{range where .Site.Pages ".Params.type" "==" "album" }}
-        <div class="album-card">
+        <div class="album-card filter-item">
             <div class="album-card-content">
                 <div class="album-cover">
                     <img src="{{.Params.cover}}">
                 </div>
                 <div class="album-content">
-                    <div class="album-title"><a class="album-title-link" href="{{.RelPermalink}}">{{.Title}}</a></div>
+                    <div class="album-title"><a class="album-title-link filter-item-title" href="{{.RelPermalink}}">{{.Title}}</a></div>
                     <div class="album-item">Released: {{.Params.Date | time.Format "02/01/2006"}}</div>
                     <div class="album-item">Length: {{.Params.length}}</div>
                     <div class="album-item">Tracks: {{.Params.tracks}}</div>
