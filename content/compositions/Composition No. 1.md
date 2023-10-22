@@ -27,7 +27,7 @@ The main reason for this decision is the goal of preserving my older style to se
 
 # Related links
 
-- Composition No. 1 is featured in [Geršl: Works for Piano](/discography/works-for-piano)!
+- Composition No. 1 is featured in [Works for Piano](/discography/works-for-piano)!
 - Listen to the piece on [audio.com](https://audio.com/petr-gersl/audio/composition-no-1)!
 - You can purchase this piece on [Bandcamp](https://pgersl.bandcamp.com/track/composition-no-1)!
 - The track is also available in the Play. and Create. tiers on [Patreon](https://patreon.com/user?u=98919388)!

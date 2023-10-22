@@ -30,7 +30,7 @@ Composition No. 9 was never rewritten or modified, although, it was considered s
 
 # Related links
 
-- Composition No. 9 is featured in [Geršl: Works for Piano](/discography/works-for-piano)
+- Composition No. 9 is featured in [Works for Piano](/discography/works-for-piano)
 - Listen to the piece on [audio.com](https://audio.com/petr-gersl/audio/composition-no-9)!
 - You can purchase this piece on [Bandcamp](https://pgersl.bandcamp.com/track/composition-no-9)!
 - The track is also available in the Play. and Create. tiers on [Patreon](https://patreon.com/user?u=98919388)!

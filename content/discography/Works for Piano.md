@@ -1,5 +1,5 @@
 ---
-title: "Geršl: Works for Piano"
+title: "Works for Piano"
 layout: single
 type: album
 cover: /media/img/albums/works-for-piano.png
@@ -11,6 +11,8 @@ audiocom: "https://audio.com/petr-gersl/collections/gersl-works-for-piano"
 bandcamp: "https://pgersl.bandcamp.com/album/ger-l-works-for-piano"
 patreon: true
 yt: "https://youtube.com/playlist?list=PLp-T61mPZVKZcpXttpn6PVVKO1qK--IFq&si=v6aEVTJd9TVfRQKA"
+spotify: "https://open.spotify.com/album/0fpvu6HMZWixdn0Y7sr19X?si=4haFqzJ4RJCbAm3OY4yUfQ"
+apple: "https://music.apple.com/us/album/works-for-piano/1707910912"
 info: true
 ---
 

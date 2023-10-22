@@ -44,7 +44,7 @@ Piano Sonata No. 1 was never rewritten or modified.
 
 # Related links
 
-- Piano Sonata No. 1 is featured in [Geršl: Works for Piano](/discography/works-for-piano)
+- Piano Sonata No. 1 is featured in [Works for Piano](/discography/works-for-piano)
 - Listen to the piece on [audio.com](https://audio.com/petr-gersl/collections/gersl-works-for-piano)!
 - You can purchase this piece on [Bandcamp](https://pgersl.bandcamp.com/album/ger-l-works-for-piano)!
 - The track is also available in the Play. and Create. tiers on [Patreon](https://patreon.com/user?u=98919388)!
