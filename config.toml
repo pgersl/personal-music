@@ -23,11 +23,6 @@ enableEmoji = "true"
         weight = "1"
         identifier = "Read about this site and everything you can find on it. Find out, how the site works and look on its updates throughout time. Read about me, Petr Geršl."
     [[menus.main]]
-        name = "Posts"
-        url = "/posts"
-        weight = "2"
-        identifier = "Read about the music I create, what I am up to and latest updates on my work."
-    [[menus.main]]
         name = "Compositions"
         url = "/compositions"
         weight = "3"

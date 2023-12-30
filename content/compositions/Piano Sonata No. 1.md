@@ -5,10 +5,9 @@ type: composition
 date: 2021-09-02
 start: "09/2021"
 end: "10/2021"
-ensemble: piano
+ensemble: solo
 length: "17' 39''"
-excerpt: "/media/audio/_exc/piano-sonata-no-1.ogg"
-show: "A minimal piece for solo piano."
+show: "piano"
 info: true
 ---
 
@@ -26,13 +25,13 @@ info: true
 
 Piano Sonata No. 1 is probably my most energetic piece with various tempos and moods, sudden changes and more interesting harmonies, while still reminiscent of Philip Glass.
 
-# Analysis
+# Program note
 
 Piano Sonata No. 1 is divided into three movements with traditional tempos: fast - slow - fast.
 
-*Movement I* opens on a long highly chromatic chord progression starting on an E minor chord and ending on a G minor chord (tonic of the movement). The same chord progression returns several times throughout the first movement and is also the bases of the third movement. 
+*Movement I* opens on a long highly chromatic chord progression starting on an E minor chord and ending on a G minor chord (tonic of the movement). The same chord progression returns several times throughout the first movement and is also the basis of the third movement. 
 
-Another important harmonic movement used in many of Glass' own compositions is the so-called *minor line cliché*, which could be written like this: i - &#9837;I<sup>aug</sup> - III - &#9837;I<sup>aug</sup>. This is also the bases of the second movement. Another chord progression in the first movement is derived from the fast triplet sections of Glass' Étude No. 1: i - VI - vi - V. The movement is again full of arpeggios of these chords.
+Another important harmonic movement used in many of Glass' own compositions is the so-called *minor line cliché*, which could be written like this: i - &#9837;I<sup>aug</sup> - III - &#9837;I<sup>aug</sup>. This is also the basis of the second movement. Another chord progression in the first movement is derived from the fast triplet sections of Glass' Étude No. 1: i - VI - vi - V. The movement is again full of arpeggios of these chords.
 
 *Movement II* opens with a melody over the minor line cliché. The melody is then overtaken by simple chords of the minor line cliché. The rhythm then suddenly changes to a polyrhythm of 3:2, which is again a very typical tool Philip Glass uses in many of his compositions, most notably in the opening to Glassworks. Then even the accompaniment changes into triplets. After this, a fragment of the melody from the beginning is heard. This time over a different chord progression: i - v - vi - &#9837;I. The movement ends on a D minor triad.
 
@@ -41,10 +40,3 @@ Another important harmonic movement used in many of Glass' own compositions is t
 # Rewrites
 
 Piano Sonata No. 1 was never rewritten or modified.
-
-# Related links
-
-- Piano Sonata No. 1 is featured in [Works for Piano](/discography/works-for-piano)
-- Listen to the piece on [audio.com](https://audio.com/petr-gersl/collections/gersl-works-for-piano)!
-- You can purchase this piece on [Bandcamp](https://pgersl.bandcamp.com/album/ger-l-works-for-piano)!
-- The track is also available in the Play. and Create. tiers on [Patreon](https://patreon.com/user?u=98919388)!

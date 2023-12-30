@@ -14,13 +14,15 @@ My early compositions were bad and only a few survived. These compositions were 
 
 After these early mishaps, I continued working on some more solo piano pieces in the style of Philip Glass. Later, I tried to compose for some untraditional ensembles, collections of synths, strings and percussion. I composed a few pieces in the style of [Steve Reich](https://stevereich.com/).
 
-It is only recently that I started composing for traditional ensembles and deviated from the style of Glass and Reich. I am growing more and more fond of the style of [Arvo Pärt](https://www.arvopart.ee/en/arvo-part/) and I am most definitely going to explore it further in the future. I also explored the late romantic period with my latest piece.
+I started composing for traditional ensembles recently and deviated from the style of Glass and Reich. I am growing more and more fond of the style of [Arvo Pärt](https://www.arvopart.ee/en/arvo-part/) and I am most definitely going to explore it further in the future. I also explored the late romantic period style in my latest pieces.
 
 I am mostly self-taught in musical composition and music theory. I attended an elementary school of arts but dropped out because I did not find attending it meaningful to me anymore. This was happening at the same time as I was starting with composition.
 
 # About the Music, You Can Find Here
 
-I am an amateur composer and I don't have enough capital or know-how to record my pieces. This is why the recordings you can find here are simply audio exports from the program they were written in - [Musescore](https://musescore.org/). The recent updates to the program have enabled me to create some very realistic recordings which can give you almost the full experience of an actual recording.
+I am an amateur composer and I don't have enough money or know-how to record my pieces. This is why the recordings you can find here are simply audio exports from the program they were written in - [Musescore](https://musescore.org/). The recent updates to the program have enabled me to create some very realistic recordings that can give you almost the full experience of an actual recording.
+
+Hopefully, this will not be the case in the future.
 
 # About This Site
 

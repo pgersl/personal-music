@@ -2,8 +2,8 @@
     <div class="info-item">Published: {{. | time.Format "02/01/2006"}}</div>
 {{end}}
 {{if eq .Params.type "composition"}}
-    <div class="info-item">Written: {{.Params.start}}{{with .Params.end}} - {{.}}{{end}}</div>
-    <div class="info-item">Length: {{.Params.length}}</div>
+    <div class="info-item">written: {{.Params.start}}{{with .Params.end}} - {{.}}{{end}}</div>
+    <div class="info-item">length: {{.Params.length}}</div>
 {{end}}
 {{if eq .Params.type "album"}}
     <div class="info-album">

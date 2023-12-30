@@ -29,18 +29,4 @@
             </div>
         {{end}}
     </div>
-    <h4>Newest post</h4>
-    <div class="aside-content-post">
-        {{range where .Site.Pages ".Params.type" "==" "post" | first 1}}
-            <a class="aside-content-title" href="{{.RelPermalink}}">
-                {{.Title}}
-            </a>
-            <div class="aside-content-date">
-                {{.Date | time.Format "02/01/2006"}}
-            </div>
-            <div class="aside-content-show">
-                {{.Params.show}}
-            </div>
-        {{end}}
-    </div>
 </div>

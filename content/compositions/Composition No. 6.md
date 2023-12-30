@@ -4,10 +4,9 @@ layout: single
 type: composition
 date: 2021-08-02
 start: "08/2021"
-ensemble: piano
+ensemble: solo
 length: "5' 53''"
-excerpt: "/media/audio/_exc/composition-no-6.ogg"
-show: "A minimal piece for solo piano."
+show: "piano"
 info: true
 ---
 
@@ -15,7 +14,7 @@ info: true
 
 *Composition No. 6* is one of the most melancholic pieces I have written so far. It is full of emotion, but it also contains fragments of melody, which perhaps indicates a development of me as a composer, going from robotic pieces to more human ones.  
 
-# Analysis
+# Program note
 
 Composition No. 6 is written in F minor, it can be divided into three sections - introduction and theme, transition, and climax. The introduction, though repetitive, shows fragments of a melody. This melody is composed of short, no more than two bars long, motives that always point to a diatonic note, usually the root, other triadic notes, or a leading note. 
 
@@ -26,10 +25,3 @@ Finally, the climax is a chord progression played on the entire range of the pia
 # Rewrites
 
 Composition No. 6 was never rewritten or modified.
-
-# Related links
-
-- Composition No. 6 is featured in [Works for Piano](/discography/works-for-piano)
-- Listen to the piece on [audio.com](https://audio.com/petr-gersl/audio/composition-no-6)!
-- You can purchase this piece on [Bandcamp](https://pgersl.bandcamp.com/track/composition-no-6)!
-- The track is also available in the Play. and Create. tiers on [Patreon](https://patreon.com/user?u=98919388)!
