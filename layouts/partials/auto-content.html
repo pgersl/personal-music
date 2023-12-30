@@ -10,19 +10,19 @@
     {{end}}
 {{end}}
 {{if eq .Params.list "compositions"}}
-    <h1>Orchestral</h1>
+    <h1 class="filter-item-heading">Orchestral</h1>
     {{range where .Site.Pages ".Params.ensemble" "==" "orchestral"}}
         {{partial "composition-card.html" .}}
     {{end}}
-    <h1>Concertante</h1>
+    <h1 class="filter-item-heading">Concertante</h1>
     {{range where .Site.Pages ".Params.ensemble" "==" "concertante"}}
         {{partial "composition-card.html" .}}
     {{end}}
-    <h1>Chamber/Ensemble</h1>
+    <h1 class="filter-item-heading">Chamber/Ensemble</h1>
     {{range where .Site.Pages ".Params.ensemble" "==" "ensemble"}}
         {{partial "composition-card.html" .}}
     {{end}}
-    <h1>Solo</h1>
+    <h1 class="filter-item-heading">Solo</h1>
     {{range where .Site.Pages ".Params.ensemble" "==" "solo"}}
         {{partial "composition-card.html" .}}
     {{end}}
