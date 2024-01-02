@@ -5,7 +5,7 @@ type: composition
 date: 2024-01-01
 written: "2024"
 ensemble: chamber
-length: "30' 02''"
+length: "30' 2''"
 show: "piano, 2 marimbas, vibes"
 info: true
 ---

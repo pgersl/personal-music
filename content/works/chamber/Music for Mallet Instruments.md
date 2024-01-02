@@ -5,7 +5,7 @@ type: composition
 date: 2022-05-02
 written: "2022"
 ensemble: chamber
-length: "27' 35''"
+length: "9' 12''"
 show: "4 players (glockenspiels, marimbas, vibes, xylophones)"
 info: true
 ---
