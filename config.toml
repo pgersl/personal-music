@@ -21,19 +21,36 @@ enableEmoji = "true"
         name = "About"
         url = "/about"
         weight = "1"
-        identifier = "Read about this site and everything you can find on it. Find out, how the site works and look on its updates throughout time. Read about me, Petr Geršl."
     [[menus.main]]
-        name = "Compositions"
-        url = "/compositions"
-        weight = "3"
-        identifier = "Listen to my pieces and find out more about each one of them."
+        name = "Works"
+        url = "/works"
+        weight = "2"
     [[menus.main]]
         name = "Discography"
         url = "/discography"
-        weight = "4"
-        identifier = "Browse my collections of compositions by albums."
+        weight = "3"
     [[menus.main]]
         name = "Support"
         url = "/support"
+        weight = "4"
+    [[menus.works]]
+        name = "Orchestral"
+        url = "/works/orchestral"
+        weight = "1"
+    [[menus.works]]
+        name = "Concertante"
+        url = "/works/concertante"
+        weight = "2"
+    [[menus.works]]
+        name = "Chamber"
+        url = "/works/chamber"
+        weight = "3"
+    [[menus.works]]
+        name = "Vocal"
+        url = "/works/vocal"
+        weight = "4"
+    [[menus.works]]
+        name = "Solo"
+        url = "/works/solo"
         weight = "5"
-        identifier = "Consider supporting me and what I am doing via sharing my work, or, if you really enjoy what I create, through personal donations and using Bandcamp."
+    

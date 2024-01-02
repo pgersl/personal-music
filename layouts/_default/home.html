@@ -6,28 +6,27 @@
 </head>
 <body>
     <div class="home-content">
-        <div class="home-header">
-            <div class="home-header-content">
-                <div class="home-header-title">
-                    Petr Geršl
-                </div>
-                <div class="home-header-description">
-                    A site for the music I create.
-                </div>
+        <div class="home-element">
+            <div class="home-header">
+                <div class="home-header-title">Petr Geršl</div>
+                <div class="home-header-description"><em>"Without music, life would be a mistake."</em> (F. Nietzche)</div>
             </div>
         </div>
-        <div class="home-nav">
-            <div class="home-nav-content">
-                {{range .Site.Menus.main}}
-                    <div class="home-nav-link-container">
-                        <a class="home-nav-link" href="{{.URL}}">
-                            {{.Name}}
-                        </a>
-                        <div class="home-nav-link-content">
-                            {{.Identifier}}
-                        </div>
-                    </div>
-                {{end}}
+        <div class="home-element">
+            <div class="home-intro">
+                {{.Content}}
+            </div>
+        </div>
+        <div class="home-element">
+            <div class="home-nav">
+                <a class="home-nav-link" href="/about">About</a>
+                <div id="home-nav-works">
+                    {{range .Site.Menus.works}}
+                        <a class="home-nav-link" href="{{.URL}}">{{.Name}}</a>
+                    {{end}}
+                </div>
+                <a class="home-nav-link" href="/discography">Discography</a>
+                <a class="home-nav-link" href="/support">Support</a>
             </div>
         </div>
         <div class="home-news">

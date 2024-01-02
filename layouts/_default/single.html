@@ -24,6 +24,15 @@
                     {{end}}
                     <div class="main-content-container">
                         {{.Content}}
+                        {{if eq .Params.title "Works"}}
+                            <ul>
+                                {{range .Site.Menus.works}}
+                                    <li>
+                                        <a href="{{.URL}}">{{.Name}}</a>
+                                    </li>
+                                {{end}}
+                            </ul>
+                        {{end}}
                     </div>
                 </div>
             </main>

@@ -101,7 +101,6 @@ main {
     align-items: flex-start;
     justify-content: center;
     gap: 1.5em;
-    padding-top: 1.5em;
 }
 .composition-card {
     width: 100%;
@@ -109,6 +108,7 @@ main {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    margin-bottom: .5em;
 }
 .album-title-link {
     color: var(--accent-clr1);
@@ -160,7 +160,7 @@ main {
     align-items: center;
     justify-content: center;
     padding: 1.5em;
-    margin: 2em 0;
+    margin: 1em 0;
     width: 100%;
     border-radius: 20px;
     box-shadow: 0 0 10px var(--shadow-clr);
@@ -175,7 +175,7 @@ main {
     width: 100%;
 }
 .album-cover {
-    width: 200px;
+    width: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -184,6 +184,9 @@ main {
 .album-cover img {
     width: 100%;
     height: auto;
+}
+.album-content {
+    width: 70%;
 }
 .album-item a {
     color: var(--main-clr1);
@@ -267,10 +270,13 @@ aside {
     background-color: var(--accent-clr2);
 }
 
-@media (max-width:930px) {
+@media (max-width:1050px) {
     .album-card-content {
         flex-direction: column;
         gap: 2em;
+    }
+    .album-content {
+        width: 100%;
     }
     .album-cover {
         width: 100%;
@@ -298,6 +304,9 @@ aside {
     .album-card-content {
         flex-direction: column;
         gap: 2em;
+    }
+    .album-content {
+        width: 100%;
     }
     .album-cover {
         width: 100%;

@@ -9,7 +9,6 @@ tracks: "18"
 featuring: "Compositions Nos. 1 - 15, Piano Sonata No. 1"
 audiocom: "https://audio.com/petr-gersl/collections/gersl-works-for-piano"
 bandcamp: "https://pgersl.bandcamp.com/album/ger-l-works-for-piano"
-patreon: true
 yt: "https://youtube.com/playlist?list=PLp-T61mPZVKZcpXttpn6PVVKO1qK--IFq&si=v6aEVTJd9TVfRQKA"
 spotify: "https://open.spotify.com/album/0fpvu6HMZWixdn0Y7sr19X?si=4haFqzJ4RJCbAm3OY4yUfQ"
 apple: "https://music.apple.com/us/album/works-for-piano/1707910912"
@@ -18,24 +17,24 @@ info: true
 
 # Tracks
 
-1. [Composition No. 1](/compositions/composition-no.-1) (57'')
-2. [Composition No. 2](/compositions/composition-no.-2) (4' 9'')
-3. [Composition No. 3](/compositions/composition-no.-3) (7' 32'')
-4. [Composition No. 4](/compositions/composition-no.-4) (7' 46'')
-5. [Composition No. 5](/compositions/composition-no.-5) (5' 5'')
-6. [Composition No. 6](/compositions/composition-no.-6) (5' 53'')
-7. [Composition No. 7](/compositions/composition-no.-7) (4' 3'')
-8. [Composition No. 8](/compositions/composition-no.-8) (4' 21'')
-9. [Composition No. 9](/compositions/composition-no.-9) (9' 24'')
-10. [Composition No. 10](/compositions/composition-no.-10) (7' 46'')
-11. [Composition No. 11](/compositions/composition-no.-11) (8' 29'')
-12. [Composition No. 12](/compositions/composition-no.-12) (8' 55'')
-13. [Composition No. 13](/compositions/composition-no.-13) (13' 18'')
-14. [Composition No. 14](/compositions/composition-no.-14) (7' 52'')
-15. [Composition No. 15](/compositions/composition-no.-15) (9' 40'')
-16. [Piano Sonata No. 1: Movement I](/compositions/piano-sonata-no.-1) (5' 18'')
-17. [Piano Sonata No. 1: Movement II](/compositions/piano-sonata-no.-1) (5' 10'')
-18. [Piano Sonata No. 1: Movement III](/compositions/piano-sonata-no.-1) (7' 11'')
+1. [Composition No. 1](/works/solo/composition-no.-1) (57'')
+2. [Composition No. 2](/works/solo/composition-no.-2) (4' 9'')
+3. [Composition No. 3](/works/solo/composition-no.-3) (7' 32'')
+4. [Composition No. 4](/works/solo/composition-no.-4) (7' 46'')
+5. [Composition No. 5](/works/solo/composition-no.-5) (5' 5'')
+6. [Composition No. 6](/works/solo/composition-no.-6) (5' 53'')
+7. [Composition No. 7](/works/solo/composition-no.-7) (4' 3'')
+8. [Composition No. 8](/works/solo/composition-no.-8) (4' 21'')
+9. [Composition No. 9](/works/solo/composition-no.-9) (9' 24'')
+10. [Composition No. 10](/works/solo/composition-no.-10) (7' 46'')
+11. [Composition No. 11](/works/solo/composition-no.-11) (8' 29'')
+12. [Composition No. 12](/works/solo/composition-no.-12) (8' 55'')
+13. [Composition No. 13](/works/solo/composition-no.-13) (13' 18'')
+14. [Composition No. 14](/works/solo/composition-no.-14) (7' 52'')
+15. [Composition No. 15](/works/solo/composition-no.-15) (9' 40'')
+16. [Piano Sonata No. 1: Movement I](/works/solo/piano-sonata-no.-1) (5' 18'')
+17. [Piano Sonata No. 1: Movement II](/works/solo/piano-sonata-no.-1) (5' 10'')
+18. [Piano Sonata No. 1: Movement III](/works/solo/piano-sonata-no.-1) (7' 11'')
 
 # Notes
 

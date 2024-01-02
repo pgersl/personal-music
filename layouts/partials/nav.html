@@ -8,10 +8,16 @@
         </button>
     </div>
     <div class="nav-links">
-        {{range .Site.Menus.main}}
-            <a class="nav-link" href="{{.URL}}">
-                {{.Name}}
-            </a>
-        {{end}}
+        <a class="nav-link" href="/about">About</a>
+        <div class="nav-dropdown">
+            <a id="nav-works-link" class="nav-link">Works</a>
+            <div class="nav-dropdown-content">
+                {{range .Site.Menus.works}}
+                    <a class="nav-link" href="{{.URL}}">{{.Name}}</a>
+                {{end}}
+            </div>
+        </div>
+        <a class="nav-link" href="/discography">Discography</a>
+        <a class="nav-link" href="/support">Support</a>
     </div>
 </div>
