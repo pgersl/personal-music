@@ -1,0 +1,17 @@
+{{define "styles"}}<link rel="stylesheet" href="/css/contact.css">{{end}}
+{{define "title"}}<title>Contact</title>{{end}}
+{{define "header"}}<header>{{.Title}}</header>{{end}}
+{{define "main"}}
+    <section>
+        <div class="section-content" id="contact">
+            <form id="contact-form" action="https://formspree.io/f/xpzvpgkv" method="POST">
+                <div id="name-email">
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <textarea id="message" name="message" rows="8" placeholder="Message" required></textarea>
+                <button type="submit" id="send">Send</button>
+            </form>
+        </div>
+    </section>
+{{end}}

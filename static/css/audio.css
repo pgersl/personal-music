@@ -1,0 +1,55 @@
+.audio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+    margin: 1em 0;
+}
+.composition-card .audio {
+    margin: 0;
+}
+.play-pause-btn {
+    border: none;
+    color: var(--accent5);
+    font-size: var(--h4-size);
+    background-color: var(--ligth1);
+    width: 15px;
+}
+.play-pause-btn:hover {
+    cursor: pointer;
+    color: var(--accent2);
+}
+.play-pause-btn:active {
+    color: var(--accent4);
+}
+.progress-bar-container {
+    width: 100%;
+    height: 5px;
+    background-color: var(--light3);
+    position: relative;
+    border-radius: 400em;
+}
+.progress-bar {
+    height: 100%;
+    background-color: var(--accent5);
+    width: 0;
+    border-radius: 400em;
+    z-index: 1;
+}
+.progress-bar-click {
+    height: 100%;
+    background-color: none;
+    width: 100%;
+    border-radius: 400em;
+    z-index: 999;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+.progress-time {
+    font-size: var(--tiny-size);
+    color: var(--accent1);
+}

@@ -1,0 +1,253 @@
+baseURL = "https://music.pgersl.xyz/"
+title = "Petr Geršl - Music"
+uglyURLs = "false"
+enableEmoji = "true"
+buildFuture = "true"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = "true"
+[outputs]
+    home = ['HTML', 'JSON', 'RSS']
+    page = ['HTML']
+[frontmatter]
+    date = ['date', 'publishDate', 'lastmod']
+    expiryDate = ['expiryDate']
+    lastmod = [':git', 'lastmod', 'date', 'publishDate']
+    publishDate = ['publishDate', 'date']
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+    [languages.en]
+        contentDir = "content/en"
+        disabled = false
+        languageCode = "en-US"
+        languageDirection = "ltr"
+        languageName = "English"
+        title = "Petr Geršl - Music"
+        weight = 1
+        flag = "/media/img/base/en.png"
+        [languages.en.params]
+            description = "The official website of Petr Geršl dedicated to his music"
+        [languages.en.menu]
+            [[languages.en.menu.main]]
+                identifier = "home"
+                name = "Home"
+                pageRef = "/"
+                weight = "1"
+            [[languages.en.menu.main]]
+                identifier = "works"
+                name = "Works"
+                pageRef = "#"
+                weight = "2"
+            [[languages.en.menu.main]]
+                identifier = "discography"
+                name = "Discography"
+                pageRef = "/discography"
+                weight = "3"
+            [[languages.en.menu.main]]
+                identifier = "contact"
+                name = "Contact"
+                pageRef = "/contact"
+                weight = "4"
+            [[languages.en.menu.works]]
+                identifier = "orchestral"
+                name = "Orchestral"
+                pageRef = "/works/orchestral"
+                weight = "1"
+            [[languages.en.menu.works]]
+                identifier = "concertante"
+                name = "Concertante"
+                pageRef = "/works/concertante"
+                weight = "2"
+            [[languages.en.menu.works]]
+                identifier = "chamber"
+                name = "Chamber"
+                pageRef = "/works/chamber"
+                weight = "3"
+            [[languages.en.menu.works]]
+                identifier = "vocal"
+                name = "Vocal"
+                pageRef = "/works/vocal"
+                weight = "4"
+            [[languages.en.menu.works]]
+                identifier = "solo"
+                name = "Solo"
+                pageRef = "/works/solo"
+                weight = "5"
+            [[languages.en.menu.works]]
+                identifier = "opus"
+                name = "Catalogue"
+                pageRef = "/works/opus"
+                weight = "6"
+            [[languages.en.menu.sites]]
+                identifier = "main"
+                name = "Main"
+                url = "https://pgersl.xyz"
+                weight = 1
+            [[languages.en.menu.sites]]
+                identifier = "wiki"
+                name = "Wiki"
+                url = "https://wiki.pgersl.xyz"
+                weight = 2
+            [[languages.en.menu.sites]]
+                identifier = "notes"
+                name = "Notes"
+                url = "https://notes.pgersl.xyz"
+                weight = 3
+    [languages.cs]
+        contentDir = "content/cs"
+        disabled = false
+        languageCode = "cs-CZ"
+        languageDirection = "ltr"
+        languageName = "Čeština"
+        title = "Petr Geršl - Hudba"
+        weight = 2
+        flag = "/media/img/base/cs.png"
+        [languages.cs.params]
+            description = "Oficiální stránky Petra Geršla věnované jeho hudbě."
+        [languages.cs.menu]
+            [[languages.cs.menu.main]]
+                identifier = "home"
+                name = "Domů"
+                pageRef = "/cs/"
+                weight = "1"
+            [[languages.cs.menu.main]]
+                identifier = "works"
+                name = "Dílo"
+                pageRef = "#"
+                weight = "2"
+            [[languages.cs.menu.main]]
+                identifier = "discography"
+                name = "Diskografie"
+                pageRef = "/cs/discography"
+                weight = "3"
+            [[languages.cs.menu.main]]
+                identifier = "contact"
+                name = "Kontakt"
+                pageRef = "/cs/contact"
+                weight = "4"
+            [[languages.cs.menu.works]]
+                identifier = "orchestral"
+                name = "Orchestrální"
+                pageRef = "/cs/works/orchestral"
+                weight = "1"
+            [[languages.cs.menu.works]]
+                identifier = "concertante"
+                name = "Koncertní"
+                pageRef = "/cs/works/concertante"
+                weight = "2"
+            [[languages.cs.menu.works]]
+                identifier = "chamber"
+                name = "Komorní"
+                pageRef = "/cs/works/chamber"
+                weight = "3"
+            [[languages.cs.menu.works]]
+                identifier = "vocal"
+                name = "Vokální"
+                pageRef = "/cs/works/vocal"
+                weight = "4"
+            [[languages.cs.menu.works]]
+                identifier = "solo"
+                name = "Sólové"
+                pageRef = "/cs/works/solo"
+                weight = "5"
+            [[languages.cs.menu.works]]
+                identifier = "opus"
+                name = "Katalog"
+                pageRef = "/cs/works/opus"
+                weight = "6"
+            [[languages.cs.menu.sites]]
+                identifier = "main"
+                name = "Hlavní"
+                url = "https://pgersl.xyz"
+                weight = 1
+            [[languages.cs.menu.sites]]
+                identifier = "wiki"
+                name = "Wiki"
+                url = "https://wiki.pgersl.xyz"
+                weight = 2
+            [[languages.cs.menu.sites]]
+                identifier = "notes"
+                name = "Poznámky"
+                url = "https://notes.pgersl.xyz"
+                weight = 3
+    [languages.fr]
+        contentDir = "content/cs"
+        disabled = false
+        languageCode = "fr-FR"
+        languageDirection = "ltr"
+        languageName = "Français"
+        title = "Petr Geršl - Musique"
+        weight = 2
+        flag = "/media/img/base/fr.png"
+        [languages.fr.params]
+            description = "Oficiální stránky Petra Geršla věnované jeho hudbě."
+        [languages.fr.menu]
+            [[languages.fr.menu.main]]
+                identifier = "home"
+                name = "Accueil"
+                pageRef = "/fr/"
+                weight = "1"
+            [[languages.fr.menu.main]]
+                identifier = "works"
+                name = "Œuvre"
+                pageRef = "#"
+                weight = "1"
+            [[languages.fr.menu.main]]
+                identifier = "discography"
+                name = "Discographie"
+                pageRef = "/fr/discography"
+                weight = "2"
+            [[languages.fr.menu.main]]
+                identifier = "contact"
+                name = "Contact"
+                pageRef = "/fr/contact"
+                weight = "3"
+            [[languages.fr.menu.works]]
+                identifier = "orchestral"
+                name = "Orchestrale"
+                pageRef = "/fr/works/orchestral"
+                weight = "1"
+            [[languages.fr.menu.works]]
+                identifier = "concertante"
+                name = "Concertante"
+                pageRef = "/fr/works/concertante"
+                weight = "2"
+            [[languages.fr.menu.works]]
+                identifier = "chamber"
+                name = "Chambre"
+                pageRef = "/fr/works/chamber"
+                weight = "3"
+            [[languages.fr.menu.works]]
+                identifier = "vocal"
+                name = "Vocale"
+                pageRef = "/fr/works/vocal"
+                weight = "4"
+            [[languages.fr.menu.works]]
+                identifier = "solo"
+                name = "Solo"
+                pageRef = "/fr/works/solo"
+                weight = "5"
+            [[languages.fr.menu.works]]
+                identifier = "opus"
+                name = "Catalogue"
+                pageRef = "/fr/works/opus"
+                weight = "6"
+            [[languages.fr.menu.sites]]
+                identifier = "main"
+                name = "Principal"
+                url = "https://pgersl.xyz"
+                weight = 1
+            [[languages.fr.menu.sites]]
+                identifier = "wiki"
+                name = "Wiki"
+                url = "https://wiki.pgersl.xyz"
+                weight = 2
+            [[languages.fr.menu.sites]]
+                identifier = "notes"
+                name = "Notes"
+                url = "https://notes.pgersl.xyz"
+                weight = 3
