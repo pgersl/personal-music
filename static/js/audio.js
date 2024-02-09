@@ -2,14 +2,12 @@ const audioContainers = document.querySelectorAll(".audio");
 audioContainers.forEach((audioContainer) => {
     const audioElement = audioContainer.querySelector("audio");
     const playPauseButton = audioContainer.querySelector(".play-pause-btn");
-    const volumeButton = audioContainer.querySelector(".volume-btn");
     const progressBar = audioContainer.querySelector(".progress-bar");
     const progressBarClick = audioContainer.querySelector(".progress-bar-click");
     const currentTimeDisplay = audioContainer.querySelector(".current-time");
     const lengthTimeDisplay = audioContainer.querySelector(".length-time");
 
     playPauseButton.addEventListener("click", togglePlayPause);
-    volumeButton.addEventListener("click", toggleMuteUnmute);
     audioElement.addEventListener("timeupdate", updateProgressAndTime);
     progressBarClick.addEventListener("click", function (event) {
         seekAudio(event, progressBar);
@@ -36,21 +34,6 @@ audioContainers.forEach((audioContainer) => {
         }
     }
 
-    function toggleMuteUnmute() {
-        audioElement.muted = !audioElement.muted;
-        updateVolumeButton();
-    }
-
-    function updateVolumeButton() {
-        const icon = volumeButton.querySelector(".volume-icon");
-        if (audioElement.muted) {
-            icon.classList.remove("fa-volume-high");
-            icon.classList.add("fa-volume-mute");
-        } else {
-            icon.classList.remove("fa-volume-mute");
-            icon.classList.add("fa-volume-high");
-        }
-    }
 
     progressBarClick.addEventListener("click", function (event) {
         const progressBarWidth = progressBarClick.clientWidth;
@@ -79,5 +62,4 @@ audioContainers.forEach((audioContainer) => {
     }
 
     updatePlayPauseButton();
-    updateVolumeButton();
 });

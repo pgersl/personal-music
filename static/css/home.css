@@ -1,122 +1,101 @@
-/* GENERAL */
-
-.home-content {
+#home-now .section-content {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
-    width: 100%;
-    background-color: var(--main-overlay-clr);
-    background-image: url(/media/img/main/home.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-blend-mode: multiply;
-    font-size: var(--font-size);
+    gap: 3em;
+}
+#home-now img {
+    width: 200px;
+    border-radius: 1em;
+    border: solid 2px var(--accent2);
 }
 
-.home-element {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+#home-newest img {
+    max-width: 170px;
 }
 
-/* HOME INTRO */
-
-.home-intro {
-    color: var(--main-clr2);
-    width: 90vw;
-    max-width: 1000px;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+#home-newest .section-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 3em;
+    align-items: stretch;
 }
 
-/* HOME HEADER */
-
-.home-header {
-    width: 90vw;
-    max-width: 1000px;
-    display: flex;
-    flex-direction: column;
-}
-.home-header-title {
-    font-size: var(--mega-size);
-    font-weight: bold;
-    color: var(--main-clr2);
-    line-height: 150px;
+.home-newest-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-}
-.home-header-description {
-    font-size: var(--font-size);
-    color: var(--main-clr2);
-    margin-top: 4em;
-}
-
-/* HOME NAV */
-
-.home-nav {
-    width: 90vw;
-    max-width: 1000px;
-    display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     gap: 2em;
-    text-align: left;
+    background-color: var(--accent1);
+    padding: 1.5em;
+    width: 200px;
+    text-align: center;
+    border-radius: 1em;
+    border: solid 4px var(--accent4);
+    text-decoration: none;
 }
-#home-nav-works {
+
+.home-newest-card:hover {
+    color: var(--light1);
+    background-color: var(--accent2);
+}
+
+.home-newest-card:active {
+    background-color: var(--accent3);
+}
+
+.home-newest-card-title {
+    font-size: var(--h3-size);
+}
+
+.home-newest-title {
+    font-size: var(--h4-size);
+}
+
+.i-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: left;
-    height: min-content;
-    gap: .5em;
-}
-.home-nav-link {
-    color: var(--accent-clr1);
-    font-size: var(--h1-size);
-    font-weight: bold;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 20px;
-    width: fit-content;
-    transition: var(--transition);
-}
-.home-nav-link:hover {
-    background-color: var(--accent-overlay-clr);
-}
-.home-nav-link-content {
-    color: var(--main-clr2);
-    display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    gap: 2em;
 }
 
-@media (max-width:720px) {
-    .home-nav-link-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    .home-nav-link-content {
-        display: none;
-    }
+.i-list-item {
+    font-size: var(--h3-size);
+    font-weight: bold;
+    color: var(--accent2);
+    white-space: nowrap;
 }
-@media (max-width:500px) {
-    .home-header-title {
-        font-size: 30vw;
-        line-height: 30vw;
-    }
-    .home-header-description, .home-header-description-desc {
-        margin-top: 5vh;
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2em;
+}
+
+.social-link {
+    color: var(--accent1);
+    font-size: 60px;
+    transition: var(--transition);
+}
+
+.social-link:hover {
+    color: var(--accent2);
+}
+
+.social-link:active {
+    color: var(--accent3);
+}
+
+@media (max-width:450px) {
+    #home-now .section-content {
+        flex-direction: column;
     }
 }

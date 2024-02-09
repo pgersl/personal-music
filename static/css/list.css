@@ -1,0 +1,101 @@
+#filter-container {
+    width: 100%;
+}
+#filter {
+    width: 250px;
+    font-size: var(--font-size);
+    padding: 1em;
+    border: 1px solid var(--light3);
+    color: var(--main-clr1);
+    border-radius: .6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: var(--font);
+}
+#filter::placeholder {
+    color: var(--main-clr3);
+    font-family: var(--font);
+}
+
+@media (max-width:450px) {
+    #filter {
+        width: 100%;
+    }
+}
+
+.composition-list {
+    margin-top: 2.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+}
+.album-list {
+    margin-top: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5em;
+}
+.composition-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.album-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.album-title-link, .composition-card-link {
+    color: var(--accent5);
+    text-decoration: none;
+    font-weight: bold;
+}
+.album-title-link {
+    font-size: var(--h4-size);
+    margin-bottom: .7em;
+}
+
+.composition-card ul {
+    list-style-position: inside;
+    padding-left: 1.2em;
+}
+.album-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+}
+.album-card img {
+    width: 150px;
+    height: auto;
+}
+.album-item a {
+    color: var(--dark1);
+    text-decoration: underline;
+    transition: var(--transition);
+}
+.album-item a:hover {
+    color: var(--light4);
+}
+.album-item a:active {
+    color: var(--light3)
+}
+
+@media (max-width:450px) {
+    .album-card {
+        flex-direction: column;
+        gap: 2em;
+    }
+    .album-card img {
+        width: 100%;
+    }
+}

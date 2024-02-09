@@ -1,47 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    {{partial "head.html" .}}
-</head>
-<body>
-    <header></header>
-    <nav>
-        {{partial "nav.html" .}}
-    </nav>
-    <div class="content-container">
-        <div class="column">
-            <main>
-                <div class="main-content">
-                    <div class="main-content-title">
-                        {{.Title}}
-                    </div>
-                    {{if eq .Params.info true}}
-                        <div class="main-content-info">
-                            <div class="main-content-info-content">
-                                {{with .Date}}
-                                    <div class="info-date">{{. | time.Format "02/01/2006"}}</div>
-                                {{end}}
+{{define "title"}}<title>{{.Title}}</title>{{end}}
+{{define "styles"}}<link rel="stylesheet" href="/css/list.css">{{end}}
+{{define "scripts"}}<script src="/js/filter.js" defer></script>{{end}}
+{{define "header"}}
+    <header>{{.Title}}</header>
+{{end}}
+
+{{define "main"}}
+    <section>
+        <div class="section-content">
+            <div id="filter-container">
+                <input id="filter" placeholder="Filter items...">
+            </div>
+            {{if eq .Params.list "compositions"}}
+                {{$ensemble := .Params.ensemble}}
+                <div class="composition-list">
+                    {{range where .Site.RegularPages ".Params.ensemble" "==" $ensemble}}
+                        <div class="composition-card filter-item">
+                            <a class="composition-card-link filter-item-title" href="{{.RelPermalink}}">{{.Title}}</a>
+                            <ul>
+                                <li>written: {{.Params.written}}</li>
+                                <li>length: {{.Params.length}}</li>
+                                <li>{{.Params.show}}</li>
+                            </ul>
+                        </div>
+                    {{end}}
+                </div>
+            {{end}}
+            {{if eq .Params.list "albums"}}
+                <div class="album-list">
+                    {{range where .Site.Pages ".Params.type" "==" "album" }}
+                        <div class="album-card filter-item">
+                            <img src="{{.Params.cover}}">
+                            <div class="album-content">
+                                <a class="album-title-link filter-item-title" href="{{.RelPermalink}}">{{.Title}}</a>
+                                <div class="album-item">Released: {{.Params.Date | time.Format "02/01/2006"}}</div>
+                                <div class="album-item">Length: {{.Params.length}}</div>
+                                <div class="album-item">Tracks: {{.Params.tracks}}</div>
+                                <div class="album-item">Featuring: {{.Params.featuring}}</div>
+                                <div class="album-item">
+                                    Available on:
+                                    {{with .Params.spotify}}<span><a href="{{.}}" target="_blank">spotify</a></span>{{end}}
+                                    {{with .Params.apple}}<span><a href="{{.}}" target="_blank">apple music</a></span>{{end}}
+                                    <span><a href="{{.Params.audiocom}}" target="_blank">audio.com</a></span> 
+                                    <span><a href="{{.Params.bandcamp}}" target="_blank">bandcamp</a></span> 
+                                    <span><a href="{{.Params.yt}}" target="_blank">youtube</a></span>
+                                </div>
                             </div>
                         </div>
                     {{end}}
-                    <div class="main-content-container">
-                        {{.Content}}
-                    </div>
-                    <div class="main-auto-content">
-                        {{partial "filter.html" .}}
-                        {{partial "auto-content.html" .}}
-                    </div>
                 </div>
-            </main>
+            {{end}}
         </div>
-        <div class="column">
-            <aside>
-                {{partial "aside.html" .}}
-            </aside>
-        </div>
-    </div>
-    <footer>
-        {{partial "footer.html" .}}
-    </footer>
-</body>
-</html>
+    </section>
+{{end}}

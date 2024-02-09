@@ -1,0 +1,64 @@
+#contact {
+    width: 100%;
+}
+
+#contact-form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact-form input, #contact-form textarea {
+    background-color: white;
+    border: solid 1px var(--light4);
+    padding: 1em;
+    font-family: var(--font);
+    font-size: var(--font-size);
+    color: var(--dark1);
+    border-radius: .6em;
+}
+
+#name-email {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+#name, #email {
+    flex-grow: 1;
+}
+
+#message {
+    flex-grow: 1;
+    margin-bottom: 2em;
+}
+
+#send {
+    width: fit-content;
+    margin: 0 auto;
+    background-color: var(--accent2);
+    color: var(--light1);
+    border: none;
+    padding: .5em 1em;
+    font-size: var(--font-size);
+    font-weight: bold;
+    border-radius: .3em;
+}
+
+#send:hover {
+    cursor: pointer;
+    background-color: var(--accent3);
+}
+
+#send:active {
+    background-color: var(--accent5);
+}
+
+@media (max-width:540px) {
+    #name-email {
+        flex-direction: column;
+    }
+}

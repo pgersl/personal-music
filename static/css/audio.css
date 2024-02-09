@@ -11,30 +11,30 @@
 .composition-card .audio {
     margin: 0;
 }
-.play-pause-btn, .volume-btn {
+.play-pause-btn {
     border: none;
-    border-radius: 3px;
-    color: var(--accent-clr1);
-    background-color: var(--main-clr2);
-    font-size: var(--h5-size);
+    color: var(--accent5);
+    font-size: var(--h4-size);
+    background-color: var(--ligth1);
+    width: 15px;
 }
-.play-pause-btn:hover, .volume-btn:hover {
+.play-pause-btn:hover {
     cursor: pointer;
-    color: var(--accent-clr2);
+    color: var(--accent2);
 }
-.play-pause-btn:active, .volume-btn:active {
-    color: var(--accent-clr4);
+.play-pause-btn:active {
+    color: var(--accent4);
 }
 .progress-bar-container {
     width: 100%;
     height: 5px;
-    background-color: var(--accent-clr5);
+    background-color: var(--light3);
     position: relative;
     border-radius: 400em;
 }
 .progress-bar {
     height: 100%;
-    background-color: var(--accent-clr1);
+    background-color: var(--accent5);
     width: 0;
     border-radius: 400em;
     z-index: 1;
@@ -51,5 +51,5 @@
 }
 .progress-time {
     font-size: var(--tiny-size);
-    color: var(--accent-clr1);
+    color: var(--accent1);
 }

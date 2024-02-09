@@ -1,50 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    {{partial "head.html" .}}
-</head>
-<body>
-    <header></header>
-    <nav>
-        {{partial "nav.html" .}}
-    </nav>
-    <div class="content-container">
-        <div class="column">
-            <main>
-                <div class="main-content">
-                    <div class="main-content-title">
-                        {{.Title}}
-                    </div>
-                    {{if eq .Params.info true}}
-                        <div class="main-content-info">
-                            <div class="main-content-info-content">
-                                {{partial "info.html" .}}
-                            </div>
+{{define "title"}}<title>{{.Title}}</title>{{end}}
+{{define "styles"}}<link rel="stylesheet" href="/css/audio.css">{{end}}
+{{define "scripts"}}<script src="/js/audio.js" defer></script>{{end}}
+{{define "header"}}
+    <header>{{.Title}}</header>
+{{end}}
+
+{{define "main"}}
+    <section>
+        <div class="section-content">
+            {{if eq .Params.info true}}
+                <div class="info">
+                    {{if eq .Params.type "composition"}}
+                        <div class="info-item">written: {{.Params.written}}</div>
+                        <div class="info-item">length: {{.Params.length}}</div>
+                    {{end}}
+                    {{if eq .Params.type "album"}}
+                        <div class="info-album">
+                            <div class="info-items">
+                                <div class="info-item">Released: {{.Params.Date | time.Format "02/01/2006"}}</div>
+                                <div class="info-item">Length: {{.Params.length}}</div>
+                                <div class="info-item">Tracks: {{.Params.tracks}}</div>
+                                <div class="info-item">
+                                    Available on:
+                                    {{with .Params.spotify}}<span><a href="{{.}}" target="_blank">spotify</a></span>{{end}}
+                                    {{with .Params.apple}}<span><a href="{{.}}" target="_blank">apple music</a></span>{{end}}
+                                    <span><a href="{{.Params.audiocom}}" target="_blank">audio.com</a>,</span> 
+                                    <span><a href="{{.Params.bandcamp}}" target="_blank">bandcamp</a>,</span>
+                                    <span><a href="{{.Params.yt}}" target="_blank">youtube</a>,</span> 
+                                    {{if .Params.patreon}}<span><a href="https://patreon.com/user?u=98919388" target="_blank">patreon</a></span>{{end}}
+                                </div>
+                                </div>
+                            <img src="{{.Params.cover}}">
                         </div>
                     {{end}}
-                    <div class="main-content-container">
-                        {{.Content}}
-                        {{if eq .Params.title "Works"}}
-                            <ul>
-                                {{range .Site.Menus.works}}
-                                    <li>
-                                        <a href="{{.URL}}">{{.Name}}</a>
-                                    </li>
-                                {{end}}
-                            </ul>
-                        {{end}}
-                    </div>
                 </div>
-            </main>
+            {{end}}
+            {{.Content}}
         </div>
-        <div class="column">
-            <aside>
-                {{partial "aside.html" .}}
-            </aside>
-        </div>
-    </div>
-    <footer>
-        {{partial "footer.html" .}}
-    </footer>
-</body>
-</html>
+    </section>
+{{end}}

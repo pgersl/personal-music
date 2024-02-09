@@ -1,3 +1,5 @@
 # Hey!
+My name is Petr Geršl and this is the code for my music website. I compose music and there is no better way to share it for me than a website of my own. This is the second iteration. No bloat, just the important code.
 
-This is the code for my music website, where I share my music, thoughts on music in general, and give people the links for means of support. Feel free to browse the code and copy it on your website!
+# Why a second iteration?
+In a larger endeavor of mine, I am trying to unify the design of my websites and this one is next. 
