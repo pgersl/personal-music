@@ -157,7 +157,9 @@ header {
     align-items: center;
     justify-content: center;
     font-size: 36px;
+    font-weight: bold;
     color: var(--light1);
+    font-weight: bold;
 }
 
 /*NAV*/
@@ -167,9 +169,9 @@ nav {
     background-image: var(--gradient2);
     color: var(--accent5);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: var(--spacer);
 }
 
@@ -181,12 +183,19 @@ nav i {
     font-size: var(--tiny-size);
 }
 
+.nav-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 95vw;
+}
+
 .nav-links {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    padding-left: 2em;
 }
 
 .main-nav-links {
@@ -251,56 +260,6 @@ nav i {
     filter: brightness(1.5);
 }
 
-nav.toggled {
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-nav.toggled .nav-links, nav.toggled .nav-utils {
-    display: flex;
-}
-
-nav.toggled .nav-links {
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-nav.toggled .main-nav-links {
-    padding-right: 0;
-    border-right: none;
-    flex-wrap: wrap;
-}
-
-nav.toggled .sites-nav-links {
-    padding-left: 0;
-    flex-wrap: wrap;
-}
-
-nav.toggled .nav-utils {
-    padding: 1em 0 0 2.3em;
-}
-
-#nav-toggle {
-    outline: none;
-    border: none;
-    background-color: #00000000;
-    color: var(--light1);
-    padding-left: 2.5em;
-    display: none;
-}
-
-#nav-toggle:hover {
-    cursor: pointer;
-}
-
-#nav-toggle i {
-    font-size: 20px;
-}
-
-nav.toggled #nav-toggle {
-    margin-bottom: 1em;
-}
-
 .works-nav-links {
     position: absolute;
     width: min-content;
@@ -320,12 +279,17 @@ nav.toggled #nav-toggle {
     display: flex;
 }
 
-@media (max-width:690px) {
-    #nav-toggle {
-        display: block;
+@media (max-width:590px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
     }
-    .nav-links, .nav-utils {
-        display: none;
+    .sites-nav-links {
+        padding-left: 0;
+    }
+    .main-nav-links {
+        padding-right: 0;
+        border-right: none;
     }
 }
 
@@ -367,6 +331,12 @@ nav.toggled #nav-toggle {
 .info-album img {
     max-width: 150px;
     width: 30vw;
+}
+
+/*MAIN*/
+
+main {
+    min-height: 55vh;
 }
 
 /*FOOTER*/

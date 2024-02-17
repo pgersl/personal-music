@@ -24,36 +24,35 @@
     <body>
         {{block "header" .}}{{end}}
         <nav>
-            <button id="nav-toggle">
-                <i class="fa-solid fa-bars" id="nav-toggle-icon"></i>
-            </button>
-            <div class="nav-links">
-                <div class="main-nav-links">
-                    <a href="/" class="nav-link">Home</a>
-                    <div id="works-link">
-                        <a class="nav-link">Works</a>
-                        <div class="works-nav-links">
-                            {{range .Site.Menus.works}}
-                                <a href="{{.PageRef}}" class="nav-link">{{.Name}}</a>
-                            {{end}}
+            <div class="nav-content">
+                <div class="nav-links">
+                    <div class="main-nav-links">
+                        <a href="/" class="nav-link">Home</a>
+                        <div id="works-link">
+                            <a class="nav-link">Works</a>
+                            <div class="works-nav-links">
+                                {{range .Site.Menus.works}}
+                                    <a href="{{.PageRef}}" class="nav-link">{{.Name}}</a>
+                                {{end}}
+                            </div>
                         </div>
+                        <a href="/discography" class="nav-link">Discography</a>
+                        <a href="/contact" class="nav-link">Contact</a>
                     </div>
-                    <a href="/discography" class="nav-link">Discography</a>
-                    <a href="/contact" class="nav-link">Contact</a>
+                    <div class="sites-nav-links">
+                        {{range .Site.Menus.sites}}
+                            <a href="{{.URL}}" class="nav-link">{{.Name}} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        {{end}}
+                    </div>
                 </div>
-                <div class="sites-nav-links">
-                    {{range .Site.Menus.sites}}
-                        <a href="{{.URL}}" class="nav-link">{{.Name}} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <!-- <div class="nav-utils">
+                    {{if .IsTranslated}}
+                        {{range .Translations}}
+                            <a href="{{.Permalink}}" class="utils-link"><img src="/media/img/base/{{.Language.Lang}}.png"></a>
+                        {{end}}
                     {{end}}
-                </div>
+                </div> -->
             </div>
-            <!-- <div class="nav-utils">
-                {{if .IsTranslated}}
-                    {{range .Translations}}
-                        <a href="{{.Permalink}}" class="utils-link"><img src="/media/img/base/{{.Language.Lang}}.png"></a>
-                    {{end}}
-                {{end}}
-            </div> -->
         </nav>
         <main>
             {{block "main" .}}{{end}}
