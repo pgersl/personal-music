@@ -10,6 +10,7 @@ featuring: "Compositions Nos. 16 - 25, Piano Sonata No. 2"
 audiocom: "https://audio.com/petr-gersl/collections/gersl-works-for-piano-ii"
 bandcamp: "https://pgersl.bandcamp.com/album/ger-l-works-for-piano-ii"
 yt: "https://youtube.com/playlist?list=PLp-T61mPZVKYwNhzqhtR-FigZEbPttd2n&si=MrzkWnK17rIlyqrH"
+spotify: "https://open.spotify.com/album/483A6Fbfz7VN3StNRKe1SL?si=KbGhoyMaT9-IAvYdkIlLVQ"
 info: true
 ---
 

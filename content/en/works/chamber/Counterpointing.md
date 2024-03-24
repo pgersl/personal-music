@@ -22,7 +22,7 @@ info: true
 
 {{< audio src="/media/audio/counterpointing3.mp3" >}}
 
-#### Mallet and String Variation
+#### Mallet Variation
 
 {{< audio src="/media/audio/counterpointing4.mp3" >}}
 
