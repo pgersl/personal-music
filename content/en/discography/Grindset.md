@@ -9,6 +9,8 @@ tracks: "5"
 featuring: "C minor Madness, F you, In D (minor)"
 bandcamp: "https://pgersl.bandcamp.com/album/grindset"
 yt: "https://www.youtube.com/playlist?list=PLp-T61mPZVKaR1RZlZwGbWvLhubE3z4DY"
+spotify: "https://open.spotify.com/album/3PzfCeeBUPgYmESaU6DwFs?si=UPjIHYGdQrqTfZo2E9Bk1Q"
+apple: "https://music.apple.com/us/album/grindset/1738494209"
 info: true
 ---
 # Tracks

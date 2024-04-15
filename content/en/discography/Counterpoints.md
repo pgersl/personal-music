@@ -9,6 +9,8 @@ tracks: "4"
 featuring: "Piano Counterpoints Nos. 1 - 4"
 bandcamp: "https://pgersl.bandcamp.com/album/counterpoints"
 yt: "https://www.youtube.com/playlist?list=PLp-T61mPZVKbxdUU69B8zx-XJRIYQDOZf"
+spotify: "https://open.spotify.com/album/6maHKOS8dh4VE3g5uM7vHC?si=0dayFS_BTXCqw8hmV9KVrg"
+apple: "https://music.apple.com/us/album/counterpoints/1738608126"
 info: true
 ---
 # Tracks

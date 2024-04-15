@@ -9,6 +9,7 @@ tracks: "6"
 featuring: "Piano Counterpoints Nos. 5 & 6, Keyboard Quartet, Mallet Counterpoint, Music for Mallet Instruments"
 bandcamp: "https://pgersl.bandcamp.com/album/counterpoints-ii"
 yt: "https://www.youtube.com/playlist?list=PLp-T61mPZVKYb2oxMttpEKDOVuqOeDuTv"
+spotify: "https://open.spotify.com/album/0WXzLjWxamNVz7qHzUsuPY?si=jhgXsakSQJqf21PjXTcyeg"
 info: true
 ---
 # Tracks

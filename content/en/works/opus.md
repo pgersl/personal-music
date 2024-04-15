@@ -60,3 +60,4 @@ layout: single
 - Op. 26 ([Mallet Counterpoint](/works/chamber/mallet-counterpoint))
 - Op. 27 ([Ave Maria](/works/vocal/ave-maria))
 - Op. 28 ([Music for Piano, Voices and Orchestra](/works/concertante/music-for-piano-voices-and-orchestra))
+- Op. 29 ([Morning Rush](/works/chamber/morning-rush))
