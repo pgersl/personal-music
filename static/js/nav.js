@@ -3,8 +3,8 @@ const worksNavButton = mainNavButtons[1]
 const worksNavLinks = document.querySelector('.works-nav-links')
 const mainNavContainer = document.querySelector('.main-nav-links')
 
-worksNavButton.addEventListener('click', () => {
-    mainNavContainer.classList.toggle('dropped')
+worksNavButton.addEventListener('mouseover', () => {
+    mainNavContainer.classList.add('dropped')
 
 })
 
