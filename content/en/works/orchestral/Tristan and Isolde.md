@@ -90,9 +90,9 @@ The theme is introduced in the prelude with the theme in high strings and then d
 
 {{< fig src="/media/img/figs/tristan-and-isolde/death.png" cap="Death theme" >}}
 
-The Death theme is different from all the others, as most of it is almost unaccompanied, thus being the most raw but also pure. It features a minor 9th, one of, if not the most dissonant interval. There are no variations on this theme with the exception of the opening to the postlude, which also features the minor 9th.
+The Death theme is different from all the others, as most of it is almost unaccompanied, thus being the most raw but also pure. It features a minor 9th, one of, if not the most dissonant interval. There are no variations on this theme except for the opening to the postlude, which also features the minor 9th.
 
-The death theme is introduced in the prelude where it connects Tristan's and Isolde's themes together which nicely represents the main ending of the story, where the two lovers finally meet in death. It then does not appear until the 7th movement, where both Tristan and Isolde die. The final appearance is in the postlude, where instead of resolving to Bb minor, with slight variation, it resolves into Db major. 
+The death theme is introduced in the prelude where it connects Tristan's and Isolde's themes which nicely represents the main ending of the story, where the two lovers finally meet in death. It then does not appear until the 7th movement, where both Tristan and Isolde die. The final appearance is in the postlude, where instead of resolving to Bb minor, with slight variation, it resolves into Db major. 
 
 {{< fig src="/media/img/figs/tristan-and-isolde/love.png" cap="Love theme" >}}
 
