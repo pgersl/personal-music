@@ -61,3 +61,5 @@ layout: single
 - Op. 27 ([Ave Maria](/works/vocal/ave-maria))
 - Op. 28 ([Music for Piano, Voices and Orchestra](/works/concertante/music-for-piano-voices-and-orchestra))
 - Op. 29 ([Morning Rush](/works/chamber/morning-rush))
+- Op. 30 ([Fanfare and Theme](/works/orchestral/fanfare-and-theme))
+- Op. 31 ([Tristan and Isolde](/works/orchestral/tristan-and-isolde))

@@ -67,18 +67,20 @@ li li {
 
 h1, h2, h3, h4, h5 {
     font-weight: bold;
-    margin-bottom: .5em;
+    margin: .7em 0 .4em 0;
     width: fit-content;
-}
-h2, h3, h4, h5 {
-    margin-top: .5em;
 }
 
 h1 {
     font-size: var(--h1-size);
-    position: relative;
-    text-align: center;
 }
+h2 {
+    font-size: var(--h2-size);
+}
+h3 {
+    font-size: var(--h3-size);
+}
+
 
 main {
     width: 100%;
@@ -112,6 +114,21 @@ section:nth-child(2n), section:nth-child(4n+2) {
     align-items: flex-start;
     justify-content: center;
 }
+
+figure {
+    max-width: 100%;
+    margin: 1em 0;
+}
+figure img {
+    width: 100%;
+}
+figure figcaption {
+    width: 100%;
+    text-align: center;
+    font-size: var(--tiny-size);
+    font-style: italic;
+}
+
 
 /*SCROLLBAR*/
 
