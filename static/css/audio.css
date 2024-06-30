@@ -153,6 +153,7 @@
     }
     .piece-cover {
         width: 100%;
+        height: auto;
     }
     .audio-content {
         width: 100%;
