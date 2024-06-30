@@ -52,6 +52,8 @@
 }
 .audio.focused .piece-cover {
     width: 100%;
+    height: auto;
+    cursor: zoom-out;
 }
 .audio.focused .audio-content {
     width: 100%;
