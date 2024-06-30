@@ -1,5 +1,5 @@
 ---
-title: Solo
+title: Solo Works
 layout: list
 list: compositions
 ensemble: solo

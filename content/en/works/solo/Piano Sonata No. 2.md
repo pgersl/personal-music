@@ -7,24 +7,16 @@ written: "2022"
 ensemble: solo
 length: "75' 57''"
 show: "piano"
+cover: /media/img/pieces/op-6.png
 info: true
 ---
 
-#### Movement I
-
-{{< audio src="/media/audio/sonata-no-2-i.mp3" >}}
-
-#### Movement II
-
-{{< audio src="/media/audio/sonata-no-2-ii.mp3" >}}
-
-#### Movement III
-
-{{< audio src="/media/audio/sonata-no-2-iii.mp3" >}}
-
-#### Movement IV
-
-{{< audio src="/media/audio/sonata-no-2-iv.mp3" >}}
+{{< audio-multiple
+    cover="6"
+    title="Piano Sonata No. 2"
+    tracks="Movement I|Movement II|Movement III|Movement IV"
+    recordings="piano-sonata-2-1|piano-sonata-2-2|piano-sonata-2-3|piano-sonata-2-4"
+>}}
 
 # Program note
 

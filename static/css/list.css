@@ -42,9 +42,13 @@
 .composition-card {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    justify-content: flex-start;
+}
+.composition-card img {
+    width: 100px;
 }
 .album-content {
     width: 100%;

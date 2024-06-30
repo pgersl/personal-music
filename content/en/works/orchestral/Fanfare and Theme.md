@@ -7,10 +7,11 @@ written: "2024"
 ensemble: orchestral
 length: "5' 36''"
 show: "orchestra"
+cover: /media/img/pieces/op-30.png
 info: true
 ---
 
-{{< audio src="/media/audio/fanfare-and-theme.mp3" >}}
+{{< audio-single cover="30" title="Fanfare and Theme" recording="fanfare-and-theme" >}}
 
 # Program note
 

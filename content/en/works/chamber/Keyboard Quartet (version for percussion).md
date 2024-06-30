@@ -7,10 +7,11 @@ written: "2024"
 ensemble: chamber
 length: "30' 2''"
 show: "piano, 2 marimbas, vibes"
+cover: /media/img/pieces/op-16a.png
 info: true
 ---
 
-{{< audio src="/media/audio/keyboard-quartet-percussion.mp3" >}}
+{{< audio-single cover="16a" title="Keyboard Quartet (version for percussion)" recording="keyboard-quartet-percussion" >}}
 
 # Program note
 

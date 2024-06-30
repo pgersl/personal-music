@@ -7,10 +7,11 @@ written: "2021"
 ensemble: solo
 length: "57''"
 show: "piano"
+cover: /media/img/pieces/op-1.png
 info: true
 ---
 
-{{< audio src="/media/audio/composition-no-1.mp3" >}}
+{{< audio-single cover="1" title="Composition No. 1" recording="composition-no-1" >}}
 
 *Composition No. 1* is my first ever written down and preserved piece. It is short, only 57 seconds in length. It was written in the summer of 2021 and marked the beginning of a long compositional journey.
 

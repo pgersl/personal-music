@@ -7,65 +7,16 @@ written: "2023"
 ensemble: orchestral
 length: "154' 23''"
 show: "orchestra, 2 SATB choirs and soloists"
+cover: /media/img/pieces/op-23.png
 info: true
 ---
-### I. Decline
 
-{{< audio src="/media/audio/symphony-2-1.mp3" >}}
-
-### II. Apocalypse
-
-{{< audio src="/media/audio/symphony-2-2.mp3" >}}
-
-### III. Prayer
-**Part 1**
-
-{{< audio src="/media/audio/symphony-2-3.mp3" >}}
-
-**Intermezzo I**
-
-{{< audio src="/media/audio/symphony-2-4.mp3" >}}
-
-**Part 2**
-
-{{< audio src="/media/audio/symphony-2-5.mp3" >}}
-
-**Intermezzo II**
-
-{{< audio src="/media/audio/symphony-2-6.mp3" >}}
-
-**Part 3**
-
-{{< audio src="/media/audio/symphony-2-7.mp3" >}}
-
-**Part 4**
-
-{{< audio src="/media/audio/symphony-2-8.mp3" >}}
-
-### IV. Psalms
-**1. De Profundis**
-
-{{< audio src="/media/audio/symphony-2-9.mp3" >}}
-
-**2. Confitebor Tibi, Domine, In Toto Corde Meo**
-
-{{< audio src="/media/audio/symphony-2-10.mp3" >}}
-
-**3. Laudate Dominum**
-
-{{< audio src="/media/audio/symphony-2-11.mp3" >}}
-
-### V. Elegy
-
-{{< audio src="/media/audio/symphony-2-12.mp3" >}}
-
-### VI. Unending
-
-{{< audio src="/media/audio/symphony-2-13.mp3" >}}
-
-### VII. Rise
-
-{{< audio src="/media/audio/symphony-2-14.mp3" >}}
+{{< audio-multiple
+    cover="23"
+    title="Symphony No. 2 \"West\""
+    tracks="I. Decline|II. Apocalypse|III. Prayer: Part 1|III. Prayer: Intermezzo I|III. Prayer: Part 2|III. Prayer: Intermezzo II|III. Prayer: Part 3|III. Prayer: Part 4|IV. Psalms: De Profundis|IV. Psalms: Confiteor Tibi, Domine, In Toto Corde Meo|IV. Psalms: Laudate Dominum|V. Elegy|VI. Unending|VII. Rise"
+    recordings="symphony-2-1|symphony-2-2|symphony-2-3|symphony-2-4|symphony-2-5|symphony-2-6|symphony-2-7|symphony-2-8|symphony-2-9|symphony-2-10|symphony-2-11|symphony-2-12|symphony-2-13|symphony-2-14"
+>}}
 
 # Acknowledgments
 
@@ -123,7 +74,7 @@ Laudate Dominum is calmer than De Profundis and was composed second. The music g
 
 Confitebor Tibi, Domine, In Toto Corde Meo, was composed almost as the last part of the symphony. For a long time, I had a theme in my mind but did not know how to use it in this context. I later came up with a fanfare-like beginning, which opens and closes the piece. Right after this, an anthem-like theme begins the psalm first sung by the soloists, then by the entire choir. Other words of the psalm are sung by the choir and the soloists in a Richard Strauss fashion. The verses of the psalm are separated by large orchestral interludes, one of them almost romantic.
 
-The fifth movement, *Elegy*, is a burial tune for the Western Civilization. It opens with high strings holding a single chord the entire time with some warm and quiet brass on top. As the strings quiet down a solo viola enters with a tearful theme. As the viola repeats its theme, a call if you want, the strings cannot help but respond with an underlying harmony. To support the solo viola, violins double the theme. As the melody grows in power, suddenly the theme from the second movement is repeated in a much more epic scene. Bells start ringing, but the theme collapses and the orchestra quiets down. The solo viola reenters with its theme in a counterpoint with the brass melody (now also played by the winds) from the beginning, now only accompanied by the high strings.
+The fifth movement, *Elegy*, is a burial tune for Western Civilization. It opens with high strings holding a single chord the entire time with some warm and quiet brass on top. As the strings quiet down a solo viola enters with a tearful theme. As the viola repeats its theme, a call if you want, the strings cannot help but respond with an underlying harmony. To support the solo viola, violins double the theme. As the melody grows in power, suddenly the theme from the second movement is repeated in a much more epic scene. Bells start ringing, but the theme collapses and the orchestra quiets down. The solo viola reenters with its theme in a counterpoint with the brass melody (now also played by the winds) from the beginning, now only accompanied by the high strings.
 
 *Unending* is the odd one out in the symphony. I contemplated whether to include it in the final work or not but I decided to leave it in. It is different than the rest, but then, most classical symphonies feature a movement that is very different from the rest (usually that is the third movement). It is in a more upbeat tempo compared to the rest of the symphony, which is rather slow.
 

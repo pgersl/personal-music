@@ -7,44 +7,16 @@ written: "2024"
 ensemble: orchestral
 length: "79' 37''"
 show: "orchestra"
+cover: /media/img/pieces/op-31.png
 info: true
 ---
 
-#### I. Prelude
-
-{{< audio src="/media/audio/tristan-and-isolde-1.mp3" >}}
-
-#### II. On the Sea
-
-{{< audio src="/media/audio/tristan-and-isolde-2.mp3" >}}
-
-#### III. Killing the Dragon
-
-{{< audio src="/media/audio/tristan-and-isolde-3.mp3" >}}
-
-#### IV. Isolde
-
-{{< audio src="/media/audio/tristan-and-isolde-4.mp3" >}}
-
-#### V. Love Potion
-
-{{< audio src="/media/audio/tristan-and-isolde-5.mp3" >}}
-
-#### VI. Wedding March
-
-{{< audio src="/media/audio/tristan-and-isolde-6.mp3" >}}
-
-#### VII. Poison Wound
-
-{{< audio src="/media/audio/tristan-and-isolde-7.mp3" >}}
-
-#### VIII. Funeral
-
-{{< audio src="/media/audio/tristan-and-isolde-8.mp3" >}}
-
-#### IX. Postlude
-
-{{< audio src="/media/audio/tristan-and-isolde-9.mp3" >}}
+{{< audio-multiple
+    cover="31"
+    title="Tristan and Isolde"
+    tracks="I. Prelude|II. On the Sea|III. Killing the Dragon|IV. Isolde|V. Love Potion|VI. Wedding March|VII. Poison Wound|VIII. Funeral|IX. Postlude"
+    recordings="tristan-and-isolde-1|tristan-and-isolde-2|tristan-and-isolde-3|tristan-and-isolde-4|tristan-and-isolde-5|tristan-and-isolde-6|tristan-and-isolde-7|tristan-and-isolde-8|tristan-and-isolde-9"
+>}}
 
 # Synopsis
 

@@ -7,20 +7,16 @@ written: "2022"
 ensemble: chamber
 length: "55' 8''"
 show: "organs, pianos and keyboards"
+cover: /media/img/pieces/op-9.png
 info: true
 ---
 
-#### Part I.
-
-{{< audio src="/media/audio/c-minor-madness-1.mp3" >}}
-
-#### Part II.
-
-{{< audio src="/media/audio/c-minor-madness-2.mp3" >}}
-
-#### Part III.
-
-{{< audio src="/media/audio/c-minor-madness-3.mp3" >}}
+{{< audio-multiple
+    cover="9"
+    title="C minor Madness"
+    tracks="Part I.|Part II.|Part III."
+    recordings="c-minor-madness-1|c-minor-madness-2|c-minor-madness-3"
+>}}
 
 # Program note
 

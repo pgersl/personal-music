@@ -7,10 +7,11 @@ written: "2022"
 ensemble: chamber
 length: "31' 16''"
 show: "organs, pianos, keyboards"
+cover: /media/img/pieces/op-11.png
 info: true
 ---
 
-{{< audio src="/media/audio/in-d-minor.mp3" >}}
+{{< audio-single cover="11" title="In D (minor)" recording="in-d-minor" >}}
 
 # Program note
 

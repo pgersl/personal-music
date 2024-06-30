@@ -7,20 +7,16 @@ written: "2023"
 ensemble: concertante
 length: "38' 58''"
 show: "piano, string orchestra"
+cover: /media/img/pieces/op-20.png
 info: true
 ---
 
-#### Movement I
-
-{{< audio src="/media/audio/music-for-piano-and-strings-1.mp3" >}}
-
-#### Movement II
-
-{{< audio src="/media/audio/music-for-piano-and-strings-2.mp3" >}}
-
-#### Movement III
-
-{{< audio src="/media/audio/music-for-piano-and-strings-3.mp3" >}}
+{{< audio-multiple
+    cover="20"
+    title="Music for Piano and Strings"
+    tracks="Movement I|Movement II|Movement III"
+    recordings="music-for-piano-and-strings-1|music-for-piano-and-strings-2|music-for-piano-and-strings-3"
+>}}
 
 # Program notes
 

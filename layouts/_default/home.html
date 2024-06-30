@@ -32,7 +32,15 @@
         <div class="section-content">
             {{range where .Site.Pages ".Params.type" "==" "composition" | first 1}}
                 <a class="home-newest-card" href="{{.RelPermalink}}">
-                    <div class="home-newest-card-title">Composition</div>
+                    <div class="home-newest-card-title">
+                        {{if strings.HasPrefix .RelPermalink "/cs/"}}
+                            Skladba
+                        {{else if strings.HasPrefix .RelPermalink "/fr/"}}
+                            Pièce
+                        {{else}}
+                            Composition
+                        {{end}}
+                    </div>
                     <img src="/media/img/base/main-no-bg.png">
                     <div class="home-newest-title">{{.Title}}</div>
                 </a>
@@ -70,6 +78,7 @@
             <h1>Mes inspirations</h1>
         {{else}}
             <h1>My inspirations</h1>
+        {{end}}
             <div class="section-content i-list">
                 <div class="i-list-item">Philip Glass</div>
                 <div class="i-list-item">Steve Reich</div>
@@ -87,6 +96,5 @@
                 <div class="i-list-item">Pyotr Ilyich Tchaikovsky</div>
                 <div class="i-list-item">Johann Sebastian Bach</div> 
             </div>
-        {{end}}
     </section>
 {{end}}

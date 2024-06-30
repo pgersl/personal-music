@@ -7,20 +7,16 @@ written: "2021"
 ensemble: solo
 length: "17' 39''"
 show: "piano"
+cover: /media/img/pieces/op-2.png
 info: true
 ---
 
-#### Movement I
-
-{{< audio src="/media/audio/piano-sonata-no-1-movement-i.mp3" >}}
-
-#### Movement II
-
-{{< audio src="/media/audio/piano-sonata-no-1-movement-ii.mp3" >}}
-
-#### Movement III
-
-{{< audio src="/media/audio/piano-sonata-no-1-movement-iii.mp3" >}}
+{{< audio-multiple
+    cover="2"
+    title="Piano Sonata No. 1"
+    tracks="Movement I|Movement II|Movement III"
+    recordings="piano-sonata-1-1|piano-sonata-1-2|piano-sonata-1-3"
+>}}
 
 Piano Sonata No. 1 is probably my most energetic piece with various tempos and moods, sudden changes and more interesting harmonies, while still reminiscent of Philip Glass.
 
@@ -34,8 +30,4 @@ Another important harmonic movement used in many of Glass' own compositions is t
 
 *Movement II* opens with a melody over the minor line cliché. The melody is then overtaken by simple chords of the minor line cliché. The rhythm then suddenly changes to a polyrhythm of 3:2, which is again a very typical tool Philip Glass uses in many of his compositions, most notably in the opening to Glassworks. Then even the accompaniment changes into triplets. After this, a fragment of the melody from the beginning is heard. This time over a different chord progression: i - v - vi - &#9837;I. The movement ends on a D minor triad.
 
-*Movement III* opens with an arpeggiated version of the opening chord progression from the first movement. After this, the other two chord progressions are pronounced in triplets in both hands. This section is then repeated. Suddenly, a melody enters resembling the ones from Movement II, now in a major key (D major). A variation of it is played over fast arpeggios of chords, a suspenseful sound. Suddenly, the fast arpeggios return and lead the composition to an end. 
-
-# Rewrites
-
-Piano Sonata No. 1 was never rewritten or modified.
+*Movement III* opens with an arpeggiated version of the opening chord progression from the first movement. After this, the other two chord progressions are pronounced in triplets in both hands. This section is then repeated. Suddenly, a melody enters resembling the ones from Movement II, now in a major key (D major). A variation of it is played over fast arpeggios of chords, a suspenseful sound. Suddenly, the fast arpeggios return and lead the composition to an end.

@@ -7,10 +7,11 @@ written: "2022"
 ensemble: solo
 length: "17' 2''"
 show: "piano"
+cover: /media/img/pieces/op-13.png
 info: true
 ---
 
-{{< audio src="/media/audio/composition-no-22.mp3" >}}
+{{< audio-single cover="13" title="Composition No. 22" recording="composition-no-22" >}}
 
 # Program note
 

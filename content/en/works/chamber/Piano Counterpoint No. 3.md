@@ -7,10 +7,11 @@ written: "2022"
 ensemble: chamber
 length: "6' 58''"
 show: "4 pianos"
+cover: /media/img/pieces/op-8.png
 info: true
 ---
 
-{{< audio src="/media/audio/piano-counterpoint-3.mp3" >}}
+{{< audio-single cover="8" title="Piano Counterpoint No. 3" recording="piano-counterpoint-3" >}}
 
 # Program note
 

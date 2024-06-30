@@ -7,28 +7,16 @@ written: "2023"
 ensemble: concertante
 length: "78' 23''"
 show: "4 violins, string orchestra"
+cover: /media/img/pieces/op-19.png
 info: true
 ---
 
-#### No. 1
-
-{{< audio src="/media/audio/metamorphosis-1.mp3" >}}
-
-#### No. 2
-
-{{< audio src="/media/audio/metamorphosis-2.mp3" >}}
-
-#### No. 3
-
-{{< audio src="/media/audio/metamorphosis-3.mp3" >}}
-
-#### No. 4
-
-{{< audio src="/media/audio/metamorphosis-4.mp3" >}}
-
-#### No. 5
-
-{{< audio src="/media/audio/metamorphosis-5.mp3" >}}
+{{< audio-multiple
+    cover="19"
+    title="Metamorphosis"
+    tracks="No. 1|No. 2|No. 3|No. 4|No. 5"
+    recordings="metamorphosis-1|metamorphosis-2|metamorphosis-3|metamorphosis-4|metamorphosis-5"
+>}}
 
 # Program note
 

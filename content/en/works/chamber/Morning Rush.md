@@ -7,10 +7,11 @@ written: "2024"
 ensemble: chamber
 length: "5' 16''"
 show: "a. saxophone, flute, piano, contrabass, drums"
+cover: /media/img/pieces/op-29.png
 info: true
 ---
 
-{{< audio src="/media/audio/morning-rush.mp3" >}}
+{{< audio-single cover="29" title="Morning Rush" recording="morning-rush" >}}
 
 # Program note
 

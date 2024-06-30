@@ -1,65 +1,83 @@
-const audioContainers = document.querySelectorAll(".audio");
-audioContainers.forEach((audioContainer) => {
-    const audioElement = audioContainer.querySelector("audio");
-    const playPauseButton = audioContainer.querySelector(".play-pause-btn");
-    const progressBar = audioContainer.querySelector(".progress-bar");
-    const progressBarClick = audioContainer.querySelector(".progress-bar-click");
-    const currentTimeDisplay = audioContainer.querySelector(".current-time");
-    const lengthTimeDisplay = audioContainer.querySelector(".length-time");
+document.addEventListener('DOMContentLoaded', () => {
 
-    playPauseButton.addEventListener("click", togglePlayPause);
-    audioElement.addEventListener("timeupdate", updateProgressAndTime);
-    progressBarClick.addEventListener("click", function (event) {
-        seekAudio(event, progressBar);
-    });
+    const audioContainer = document.querySelector('.audio');
+    const pieceCover = document.querySelector('.piece-cover');
 
-    function togglePlayPause() {
-        if (audioElement.paused) {
-            audioElement.play();
-        } else {
-            audioElement.pause();
+    pieceCover.addEventListener('click', () => {
+        audioContainer.classList.toggle('focused');
+    })
+
+
+
+    // Select all audio containers
+    const audioPlayers = document.querySelectorAll('.audio-player');
+
+    audioPlayers.forEach(container => {
+        // Select the relevant elements within the current container
+        const audioElement = container.querySelector('audio');
+        const playPauseButton = container.querySelector('.play-pause');
+        const progressBar = container.querySelector('.progress-bar');
+        const progressBarFilled = container.querySelector('.progress-bar-filled');
+        const currentTimeElement = container.querySelector('.current-time');
+        const durationElement = container.querySelector('.duration');
+
+        // Initialize the progress bar and time display
+        function initialize() {
+            // Set progress bar to 0 initially
+            progressBar.value = 0;
+            progressBarFilled.style.width = '0%';
+
+            // Handle audio metadata loading
+            audioElement.addEventListener('loadedmetadata', () => {
+                durationElement.textContent = formatTime(audioElement.duration);
+            });
+
+            // Update progress bar and time on timeupdate
+            audioElement.addEventListener('timeupdate', () => {
+                const currentTime = audioElement.currentTime;
+                const duration = audioElement.duration;
+                const progress = (currentTime / duration) * 100;
+
+                progressBar.value = progress;
+                progressBarFilled.style.width = `${progress}%`;
+
+                currentTimeElement.textContent = formatTime(currentTime);
+                durationElement.textContent = formatTime(duration);
+            });
         }
-        updatePlayPauseButton();
-        updateProgressAndTime();
-    }
 
-    function updatePlayPauseButton() {
-        const icon = playPauseButton.querySelector(".play-pause-icon");
-        if (audioElement.paused) {
-            icon.classList.remove("fa-pause");
-            icon.classList.add("fa-play");
-        } else {
-            icon.classList.remove("fa-play");
-            icon.classList.add("fa-pause");
+        // Toggle play/pause
+        playPauseButton.addEventListener('click', () => {
+            if (audioElement.paused) {
+                // Pause all other audio elements
+                document.querySelectorAll('.audio-content audio').forEach(otherAudio => {
+                    if (otherAudio !== audioElement) {
+                        otherAudio.pause();
+                    }
+                });
+                // Play the current audio element
+                audioElement.play();
+                playPauseButton.innerHTML = '<i class="fas fa-pause"></i>';
+            } else {
+                audioElement.pause();
+                playPauseButton.innerHTML = '<i class="fas fa-play"></i>';
+            }
+        });
+
+        // Seek audio when progress bar is used
+        progressBar.addEventListener('input', () => {
+            const duration = audioElement.duration;
+            audioElement.currentTime = (progressBar.value / 100) * duration;
+        });
+
+        // Format time in mm:ss
+        function formatTime(seconds) {
+            const minutes = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return `${minutes}:${secs < 10 ? '0' : ''}${secs}`;
         }
-    }
 
-
-    progressBarClick.addEventListener("click", function (event) {
-        const progressBarWidth = progressBarClick.clientWidth;
-        const clickedPosition = event.clientX - progressBarClick.getBoundingClientRect().left;
-        const newPositionPercentage = (clickedPosition / progressBarWidth) * 100;
-    
-        const newTime = (newPositionPercentage / 100) * audioElement.duration;
-        audioElement.currentTime = newTime;
-    
-        updateProgressAndTime();
+        // Call initialize function
+        initialize();
     });
-
-    function updateProgressAndTime() {
-        const currentTime = formatTime(audioElement.currentTime);
-        const totalTime = formatTime(audioElement.duration);
-        currentTimeDisplay.textContent = currentTime;
-        lengthTimeDisplay.textContent = totalTime;
-        const progress = (audioElement.currentTime / audioElement.duration) * 100;
-        progressBar.style.width = `${progress}%`;
-    }
-
-    function formatTime(timeInSeconds) {
-        const minutes = Math.floor(timeInSeconds / 60);
-        const seconds = Math.floor(timeInSeconds % 60);
-        return `${minutes}:${seconds.toString().padStart(2, "0")}`;
-    }
-
-    updatePlayPauseButton();
 });

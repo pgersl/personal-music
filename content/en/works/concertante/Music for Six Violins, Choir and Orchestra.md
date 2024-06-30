@@ -7,10 +7,11 @@ written: "2023"
 ensemble: concertante
 length: "27' 20''"
 show: "6 violins, SMATTTBB choir, orchestra"
+cover: /media/img/pieces/op-22.png
 info: true
 ---
 
-{{< audio src="/media/audio/music-for-six-violins-choir-and-orchestra.mp3" >}}
+{{< audio-single cover="22" title="Music for Six Violins, Choir and Orchestra" recording="music-for-six-violins-choir-and-orchestra" >}}
 
 # Program note
 

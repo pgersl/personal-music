@@ -7,10 +7,11 @@ written: "2021"
 ensemble: solo
 length: "9' 24''"
 show: "piano"
+cover: /media/img/pieces/op-1.png
 info: true
 ---
 
-{{< audio src="/media/audio/composition-no-9.mp3" >}}
+{{< audio-single cover="1" title="Composition No. 9" recording="composition-no-9" >}}
 
 *Composition No. 9* is a highly reductionistic piece and is one of the last of my piano compositions to be written this way. 
 

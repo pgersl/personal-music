@@ -1,5 +1,5 @@
 ---
-title: Vocal
+title: Vocal Works
 layout: list
 list: compositions
 ensemble: vocal

@@ -7,10 +7,11 @@ written: "2023"
 ensemble: chamber
 length: "62' 31''"
 show: "2 violins, 2 cellos, organ, SATB choir"
+cover: /media/img/pieces/op-18.png
 info: true
 ---
 
-{{< audio src="/media/audio/music-for-strings-voices-and-organ.mp3" >}}
+{{< audio-single cover="18" title="Music for Strings, Voices and Organ" recording="music-for-strings-voices-and-organ" >}}
 
 # Program note
 

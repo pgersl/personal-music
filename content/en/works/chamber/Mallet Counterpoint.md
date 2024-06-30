@@ -7,10 +7,11 @@ written: "2024"
 ensemble: chamber
 length: "4' 23''"
 show: "2 marimbas, vibes, xylophone"
+cover: /media/img/pieces/op-26.png
 info: true
 ---
 
-{{< audio src="/media/audio/mallet-counterpoint.mp3" >}}
+{{< audio-single cover="26" title="Mallet Counterpoint" recording="mallet-counterpoint" >}}
 
 # Program note
 

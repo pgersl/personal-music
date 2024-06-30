@@ -7,10 +7,11 @@ written: "2022"
 ensemble: chamber
 length: "4' 40''"
 show: "4 pianos"
+cover: /media/img/pieces/op-14.png
 info: true
 ---
 
-{{< audio src="/media/audio/piano-counterpoint-5.mp3" >}}
+{{< audio-single cover="14" title="Piano Counterpoint No. 5 \"Wednesday Afternoon\"" recording="piano-counterpoint-5" >}}
 
 # Program note
 

@@ -114,7 +114,7 @@ h1::after {
     color: var(--accent3);
 }
 
-@media (max-width:450px) {
+@media (max-width:550px) {
     #home-now .section-content {
         flex-direction: column;
     }

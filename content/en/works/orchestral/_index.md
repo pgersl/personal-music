@@ -1,5 +1,5 @@
 ---
-title: Orchestral
+title: Orchestral Works
 layout: list
 list: compositions
 ensemble: orchestral

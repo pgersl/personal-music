@@ -7,26 +7,18 @@ written: "2023"
 ensemble: orchestral
 length: "48' 18''"
 show: "orchestra"
+cover: /media/img/pieces/op-24.png
 info: true
 ---
 
-#### I. Train
+{{< audio-multiple
+    cover="24"
+    title="Symphony No. 3 \"Auschwitz\""
+    tracks="I. Train|II. Chamber|III. Burning of the Dead|IV. As Auschwitz Sleeps"
+    recordings="symphony-3-1|symphony-3-2|symphony-3-3|symphony-3-4"
+>}}
 
-{{< audio src="/media/audio/symphony-3-1.mp3" >}}
-
-#### II. Chamber
-
-{{< audio src="/media/audio/symphony-3-2.mp3" >}}
-
-#### III. Burning of the Dead
-
-{{< audio src="/media/audio/symphony-3-3.mp3" >}}
-
-#### IV. As Auschwitz Sleeps
-
-{{< audio src="/media/audio/symphony-3-4.mp3" >}}
-
-*Symphony No. 3 "Auschwitz" is dedicated to the victims of senseless murders in the Auschwitz-Birkenau concentration and extermination camp.*
+*Symphony No. 3 "Auschwitz" is dedicated to the victims of senseless murders in the Auschwitz-Birkenau concentration and extermination camp*
 
 # Program note
 

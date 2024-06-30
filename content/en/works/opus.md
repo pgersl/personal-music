@@ -44,7 +44,7 @@ layout: single
 	- No. 7 ([Composition No. 25](/works/solo/composition-no.-25))
 - Op. 14 ([Piano Counterpoint No. 5 "Wednesday Afternoon"](/works/chamber/piano-counterpoint-no.-5))
 - Op. 15 ([Piano Counterpoint No. 6](/works/chamber/piano-counterpoint-no.-6))
-- Op. 16a ([Keyboard Quartet](/works/chamber/keyboard-quartet))
+- Op. 16 ([Keyboard Quartet](/works/chamber/keyboard-quartet))
 - Op. 17 ([Music for Mallet Instruments](/works/chamber/music-for-mallet-instruments))
 ### 2023
 - Op. 18 ([Music for Strings, Voices and Organ](/works/chamber/music-for-strings-voices-and-organ))
@@ -56,7 +56,7 @@ layout: single
 - Op. 24 ([Symphony No. 3 "Auschwitz"](/works/orchestral/symphony-no.-3-auschwitz))
 - Op. 25 ([Intrada](/works/chamber/intrada))
 ### 2024
-- Op. 16b ([Keyboard Quartet (version for percussion)](/works/chamber/keyboard-quartet-version-for-percussion))
+- Op. 16a ([Keyboard Quartet (version for percussion)](/works/chamber/keyboard-quartet-version-for-percussion))
 - Op. 26 ([Mallet Counterpoint](/works/chamber/mallet-counterpoint))
 - Op. 27 ([Ave Maria](/works/vocal/ave-maria))
 - Op. 28 ([Music for Piano, Voices and Orchestra](/works/concertante/music-for-piano-voices-and-orchestra))

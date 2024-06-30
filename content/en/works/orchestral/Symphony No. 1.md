@@ -7,19 +7,16 @@ written: "2023"
 ensemble: orchestral
 length: "60' 32''"
 show: "string orchestra, bells, mixed choir"
+cover: /media/img/pieces/op-21.png
 info: true
 ---
-#### Movement I
 
-{{< audio src="/media/audio/symphony-1-1.mp3" >}}
-
-#### Movement II
-
-{{< audio src="/media/audio/symphony-1-2.mp3" >}}
-
-#### Movement III
-
-{{< audio src="/media/audio/symphony-1-3.mp3" >}}
+{{< audio-multiple
+    cover="21"
+    title="Symphony No. 1"
+    tracks="Movement I|Movement II|Movement III"
+    recordings="symphony-1-1|symphony-1-2|symphony-1-3"
+>}}
 
 # Program note
 

@@ -7,10 +7,11 @@ written: "2022"
 ensemble: chamber
 length: "27' 35''"
 show: "4 keyboards"
+cover: /media/img/pieces/op-16.png
 info: true
 ---
 
-{{< audio src="/media/audio/keyboard-quartet.mp3" >}}
+{{< audio-single cover="16" title="Keyboard Quartet" recording="keyboard-quartet" >}}
 
 # Program note
 

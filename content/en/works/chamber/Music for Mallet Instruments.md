@@ -7,10 +7,11 @@ written: "2022"
 ensemble: chamber
 length: "9' 12''"
 show: "4 players (glockenspiels, marimbas, vibes, xylophones)"
+cover: /media/img/pieces/op-17.png
 info: true
 ---
 
-{{< audio src="/media/audio/music-for-mallet-instruments.mp3" >}}
+{{< audio-single cover="17" title="Music for Mallet Instruments" recording="music-for-mallet-instruments" >}}
 
 # Program note
 

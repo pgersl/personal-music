@@ -129,7 +129,6 @@ figure figcaption {
     font-style: italic;
 }
 
-
 /*SCROLLBAR*/
 
 body::-webkit-scrollbar {
@@ -162,6 +161,8 @@ header {
     font-weight: bold;
     color: var(--light1);
     font-weight: bold;
+    text-align: center;
+    padding: 0 .4em 0 .4em;
 }
 
 /*NAV*/
@@ -187,9 +188,9 @@ nav i {
 
 .nav-content {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 95vw;
 }
 
@@ -247,7 +248,6 @@ nav i {
     display: flex;
     flex-direction: row;
     gap: 1.5em;
-    padding-right: 2em;
 }
 
 .utils-link {
@@ -281,7 +281,7 @@ nav i {
     display: flex;
 }
 
-@media (max-width:590px) {
+@media (max-width:680px) {
     .nav-links {
         flex-direction: column;
         align-items: flex-start;
@@ -292,6 +292,14 @@ nav i {
     .main-nav-links {
         padding-right: 0;
         border-right: none;
+    }
+}
+@media (max-width:415px) {
+    nav {
+        font-size: var(--tiny-size);
+    }
+    .works-nav-links {
+        top: 20px;
     }
 }
 
