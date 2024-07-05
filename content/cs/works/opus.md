@@ -63,3 +63,4 @@ layout: single
 - Op. 29 ([Ranní shon](/cs/works/chamber/morning-rush))
 - Op. 30 ([Fanfára a téma](/cs/works/orchestral/fanfare-and-theme))
 - Op. 31 ([Tristan a Isolda](/cs/works/orchestral/tristan-and-isolde))
+- Op. 32 ([Libera Me](/cs/works/vocal/libera-me))

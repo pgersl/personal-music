@@ -63,3 +63,4 @@ layout: single
 - Op. 29 ([Morning Rush](/works/chamber/morning-rush))
 - Op. 30 ([Fanfare and Theme](/works/orchestral/fanfare-and-theme))
 - Op. 31 ([Tristan and Isolde](/works/orchestral/tristan-and-isolde))
+- Op. 32 ([Libera Me](/works/vocal/libera-me))
