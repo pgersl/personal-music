@@ -40,7 +40,10 @@
     width: 20%;
     height: auto;
     cursor: zoom-in;
-    transition: all .6s;
+    transition: all .3s;
+}
+.piece-cover:hover {
+    box-shadow: 0 0 10px 10px #000000a2;
 }
 
 .audio-content h3 {

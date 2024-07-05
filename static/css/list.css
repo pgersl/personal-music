@@ -49,6 +49,10 @@
 }
 .composition-card img {
     width: 100px;
+    transition: all .2s;
+}
+.composition-card img:hover {
+    box-shadow: 0 0 5px 5px #00000034;
 }
 .album-content {
     width: 100%;
@@ -81,6 +85,10 @@
 .album-card img {
     width: 150px;
     height: auto;
+    transition: all .2s;
+}
+.album-card img:hover {
+    box-shadow: 0 0 10px 10px #00000026;
 }
 .album-item a {
     color: var(--dark1);

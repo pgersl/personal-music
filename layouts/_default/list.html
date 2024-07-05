@@ -16,7 +16,7 @@
                 <div class="composition-list">
                     {{range where .Site.RegularPages ".Params.ensemble" "==" $ensemble}}
                         <div class="composition-card filter-item">
-                            <img src="{{.Params.cover}}">
+                            <a href="{{.RelPermalink}}"><img src="{{.Params.cover}}"></a>
                             <div class="composition-content">
                                 <a class="composition-card-link filter-item-title" href="{{.RelPermalink}}">{{.Title}}</a>
                                 <ul>
@@ -33,7 +33,7 @@
                 <div class="album-list">
                     {{range where .Site.Pages ".Params.type" "==" "album" }}
                         <div class="album-card filter-item">
-                            <img src="{{.Params.cover}}">
+                            <a href="{{.RelPermalink}}"><img src="{{.Params.cover}}"></a>
                             <div class="album-content">
                                 <a class="album-title-link filter-item-title" href="{{.RelPermalink}}">{{.Title}}</a>
                                 <div class="album-item">{{if strings.HasPrefix .RelPermalink "/cs/"}}Vydáno{{else if strings.HasPrefix .RelPermalink "/fr/"}}Publié{{else}}Released{{end}}: {{.Params.Date | time.Format "02/01/2006"}}</div>
