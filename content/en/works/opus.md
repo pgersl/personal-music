@@ -64,3 +64,5 @@ layout: single
 - Op. 30 ([Fanfare and Theme](/works/orchestral/fanfare-and-theme))
 - Op. 31 ([Tristan and Isolde](/works/orchestral/tristan-and-isolde))
 - Op. 32 ([Libera Me](/works/vocal/libera-me))
+- Op. 33 ([As They Fly Above Us...](/works/orchestral/as-they-fly-above-us))
+- Op. 34 ([Vox Britannica](/works/orchestral/vox-britannica))
