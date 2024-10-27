@@ -19,4 +19,4 @@ info: true
 
 There are two themes in this piece, one heard at the beginning and the other played after several repeats of the first. These themes are repeated a number of times in the duration of the piece.
 
-The most interesting and new to me is the harmonic material of the piece, as the harmonies are now closer to jazz than anything classical, with lydian scales on top. This is a new teritory for me to explore. Though simple in comparison to some spicier harmonies possible with other modes, the lydian mode somehow captures a very interesting, pensive almost melancholiv emotion, which has had an interesting impact on me.
+The most interesting and new to me is the harmonic material of the piece, as the harmonies are now closer to jazz than anything classical, with lydian scales on top. This is a new teritory for me to explore. Though simple in comparison to some spicier harmonies possible with other modes, the lydian mode somehow captures a very interesting, pensive almost melancholic emotion, which has had an interesting impact on me.
