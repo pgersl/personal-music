@@ -13,7 +13,7 @@ info: true
 
 {{< audio-multiple
     cover="35"
-    title="Inaugural Marches \"DJT\""
+    title="Inaugurální pochody \"DJT\""
     tracks="I. Fanfára a pochod č. 1 (The Star-Spangled Banner)|II. Pochod č. 2 (America the Beautiful)|III. Pochod č. 3 (God Bless America)|IV. Pochod č. 4 (Make America Great Again)"
     recordings="inaugural-marches-1|inaugural-marches-2|inaugural-marches-3|inaugural-marches-4"
 >}}
