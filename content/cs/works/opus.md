@@ -64,3 +64,6 @@ layout: single
 - Op. 30 ([Fanfára a téma](/cs/works/orchestral/fanfare-and-theme))
 - Op. 31 ([Tristan a Isolda](/cs/works/orchestral/tristan-and-isolde))
 - Op. 32 ([Libera Me](/cs/works/vocal/libera-me))
+- Op. 33 ([Jak nad námi létají...](/cs/works/orchestral/as-they-fly-above-us))
+- Op. 34 ([Vox Britannica](/cs/works/orchestral/vox-britannica))
+- Op. 35 ([Inaugurální pochody "DJT"](/cs/works/orchestral/inaugural-marches-djt))
