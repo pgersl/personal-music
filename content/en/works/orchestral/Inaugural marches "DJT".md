@@ -2,7 +2,7 @@
 title: Inaugural Marches "DJT"
 layout: single
 type: composition
-date: 2024-11-01
+date: 2024-12-01
 written: "2024"
 ensemble: orchestral
 length: "27' 22''"

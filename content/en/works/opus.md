@@ -67,3 +67,4 @@ layout: single
 - Op. 33 ([As They Fly Above Us...](/works/orchestral/as-they-fly-above-us))
 - Op. 34 ([Vox Britannica](/works/orchestral/vox-britannica))
 - Op. 35 ([Inaugural Marches "DJT"](/works/orchestral/inaugural-marches-djt))
+- Op. 36 ([Glass Cycle](/works/chamber/glass-cycle))

@@ -2,11 +2,11 @@
 title: Inaugurální pochody "DJT"
 layout: single
 type: composition
-date: 2024-11-01
+date: 2024-12-01
 written: "2024"
 ensemble: orchestral
 length: "27' 22''"
-show: "orchestra"
+show: "orchestr"
 cover: /media/img/pieces/op-35.png
 info: true
 ---

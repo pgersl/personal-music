@@ -67,3 +67,4 @@ layout: single
 - Op. 33 ([Jak nad námi létají...](/cs/works/orchestral/as-they-fly-above-us))
 - Op. 34 ([Vox Britannica](/cs/works/orchestral/vox-britannica))
 - Op. 35 ([Inaugurální pochody "DJT"](/cs/works/orchestral/inaugural-marches-djt))
+- Op. 36 ([Glass Cycle](/cs/works/chamber/glass-cycle))
