@@ -68,3 +68,4 @@ layout: single
 - Op. 34 ([Vox Britannica](/cs/works/orchestral/vox-britannica))
 - Op. 35 ([Inaugurální pochody "DJT"](/cs/works/orchestral/inaugural-marches-djt))
 - Op. 36 ([Glass Cycle](/cs/works/chamber/glass-cycle))
+- Op. 37 ([The Last Figure](/cs/works/chamber/the-last-figure))
