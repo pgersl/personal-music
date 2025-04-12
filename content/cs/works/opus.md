@@ -69,3 +69,6 @@ layout: single
 - Op. 35 ([Inaugurální pochody "DJT"](/cs/works/orchestral/inaugural-marches-djt))
 - Op. 36 ([Glass Cycle](/cs/works/chamber/glass-cycle))
 - Op. 37 ([The Last Figure](/cs/works/chamber/the-last-figure))
+### 2025
+- Op. 38 ([Bouquet](/works/orchestral/bouquet))
+- Op. 39 ([Suita z válečného filmu](/works/orchestral/war-movie-suite))

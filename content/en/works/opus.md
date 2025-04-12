@@ -69,3 +69,6 @@ layout: single
 - Op. 35 ([Inaugural Marches "DJT"](/works/orchestral/inaugural-marches-djt))
 - Op. 36 ([Glass Cycle](/works/chamber/glass-cycle))
 - Op. 37 ([The Last Figure](/works/chamber/the-last-figure))
+### 2025
+- Op. 38 ([Bouquet](/works/orchestral/bouquet))
+- Op. 39 ([War Movie Suite](/works/orchestral/war-movie-suite))
