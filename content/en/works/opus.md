@@ -73,3 +73,4 @@ layout: single
 - Op. 38 ([Bouquet](/works/orchestral/bouquet))
 - Op. 39 ([War Movie Suite](/works/orchestral/war-movie-suite))
 - Op. 40 ([Three Rooms](/works/orchestral/three-rooms))
+- Op. 41 ([Contemplation](/works/orchestral/contemplation))

@@ -73,3 +73,4 @@ layout: single
 - Op. 38 ([Bouquet](/cs/works/orchestral/bouquet))
 - Op. 39 ([Suita z válečného filmu](/cs/works/orchestral/war-movie-suite))
 - Op. 40 ([Tři pokoje](/cs/works/orchestral/three-rooms))
+- Op. 41 ([Kontemplace](/cs/works/orchestral/contemplation))
