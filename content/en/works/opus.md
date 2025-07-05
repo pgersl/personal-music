@@ -74,3 +74,4 @@ layout: single
 - Op. 39 ([War Movie Suite](/works/orchestral/war-movie-suite))
 - Op. 40 ([Three Rooms](/works/orchestral/three-rooms))
 - Op. 41 ([Contemplation](/works/orchestral/contemplation))
+- Op. 42 ([Sturmpolka](/works/orchestral/sturmpolka))

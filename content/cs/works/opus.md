@@ -74,3 +74,4 @@ layout: single
 - Op. 39 ([Suita z válečného filmu](/cs/works/orchestral/war-movie-suite))
 - Op. 40 ([Tři pokoje](/cs/works/orchestral/three-rooms))
 - Op. 41 ([Kontemplace](/cs/works/orchestral/contemplation))
+- Op. 42 ([Sturmpolka](/cs/works/orchestral/sturmpolka))
