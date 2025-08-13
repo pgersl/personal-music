@@ -75,3 +75,5 @@ layout: single
 - Op. 40 ([Three Rooms](/works/orchestral/three-rooms))
 - Op. 41 ([Contemplation](/works/orchestral/contemplation))
 - Op. 42 ([Sturmpolka](/works/orchestral/sturmpolka))
+- Op. 43 ([Luft von anderem Planeten](/works/orchestral/luft-von-anderem-planeten))
+- Op. 44 ([Sommerabend](/works/orchestral/sommerabend))
