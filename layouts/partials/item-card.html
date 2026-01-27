@@ -1,0 +1,10 @@
+<a href="{{.RelPermalink}}" class="item-card filter-item">
+    <img src="{{.Params.cover}}">
+    <div class="item-content">
+        <div class="item-date">{{.Params.Date | time.Format "2006"}}</div>
+        <div class="item-title-link filter-item-title">{{.Title}}</div>
+        <div class="item-length">{{.Params.length}}</div>
+        {{with .Params.featuring}}<div class="item-tracks">{{.}}</div>{{end}}
+        {{with .Params.show}}<div class="item-orchestration">{{.}}</div>{{end}}
+    </div>
+</a>

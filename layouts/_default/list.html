@@ -1,58 +1,25 @@
-{{define "title"}}<title>{{.Title}}</title>{{end}}
 {{define "styles"}}<link rel="stylesheet" href="/css/list.css">{{end}}
-{{define "scripts"}}<script src="/js/filter.js" defer></script>{{end}}
-{{define "header"}}
-    <header>{{.Title}}</header>
-{{end}}
+{{define "scripts"}}<script src="/js/list.js" defer></script>{{end}}
 
 {{define "main"}}
-    <section>
-        <div class="section-content">
+    <section id="list">
+        <div class="list-content">
             <div id="filter-container">
-                <input id="filter" placeholder="{{if strings.HasPrefix .RelPermalink "/cs/"}}Filtrovat{{else if strings.HasPrefix .RelPermalink "/fr/"}}Filtrer les élements{{else}}Filter items{{end}}...">
+                <input id="filter" placeholder="{{if strings.HasPrefix .RelPermalink "/cs/"}}Hledat{{else}}Search{{end}}...">
             </div>
-            {{if eq .Params.list "compositions"}}
-                {{$ensemble := .Params.ensemble}}
-                <div class="composition-list">
-                    {{range where .Site.RegularPages ".Params.ensemble" "==" $ensemble}}
-                        <div class="composition-card filter-item">
-                            <a href="{{.RelPermalink}}"><img src="{{.Params.cover}}"></a>
-                            <div class="composition-content">
-                                <a class="composition-card-link filter-item-title" href="{{.RelPermalink}}">{{.Title}}</a>
-                                <ul>
-                                    <li>{{if strings.HasPrefix .RelPermalink "/cs/"}}napsáno{{else if strings.HasPrefix .RelPermalink "/fr/"}}écrit{{else}}written{{end}}: {{.Params.written}}</li>
-                                    <li>{{if strings.HasPrefix .RelPermalink "/cs/"}}délka{{else if strings.HasPrefix .RelPermalink "/fr/"}}longueur{{else}}length{{end}}: {{.Params.length}}</li>
-                                    <li>{{.Params.show}}</li>
-                                </ul>
-                            </div>
-                        </div>
-                    {{end}}
-                </div>
-            {{end}}
-            {{if eq .Params.list "albums"}}
-                <div class="album-list">
+            <div class="item-list">
+                {{if eq .Params.list "albums"}}
                     {{range where .Site.Pages ".Params.type" "==" "album" }}
-                        <div class="album-card filter-item">
-                            <a href="{{.RelPermalink}}"><img src="{{.Params.cover}}"></a>
-                            <div class="album-content">
-                                <a class="album-title-link filter-item-title" href="{{.RelPermalink}}">{{.Title}}</a>
-                                <div class="album-item">{{if strings.HasPrefix .RelPermalink "/cs/"}}Vydáno{{else if strings.HasPrefix .RelPermalink "/fr/"}}Publié{{else}}Released{{end}}: {{.Params.Date | time.Format "02/01/2006"}}</div>
-                                <div class="album-item">{{if strings.HasPrefix .RelPermalink "/cs/"}}Délka{{else if strings.HasPrefix .RelPermalink "/fr/"}}Longueur{{else}}Length{{end}}: {{.Params.length}}</div>
-                                <div class="album-item">{{if strings.HasPrefix .RelPermalink "/cs/"}}Počet skladeb{{else if strings.HasPrefix .RelPermalink "/fr/"}}Pistes{{else}}Tracks{{end}}: {{.Params.tracks}}</div>
-                                <div class="album-item">{{if strings.HasPrefix .RelPermalink "/cs/"}}Obsahuje{{else if strings.HasPrefix .RelPermalink "/fr/"}}En vedette{{else}}Featuring{{end}}: {{.Params.featuring}}</div>
-                                <div class="album-item">
-                                    {{if strings.HasPrefix .RelPermalink "/cs/"}}Dostupné na{{else if strings.HasPrefix .RelPermalink "/fr/"}}Disponible sur{{else}}Available on{{end}}:
-                                    {{with .Params.spotify}}<span><a href="{{.}}" target="_blank">spotify</a></span>{{end}}
-                                    {{with .Params.apple}}<span><a href="{{.}}" target="_blank">apple music</a></span>{{end}}
-                                    {{with .Params.audiocom}}<span><a href="{{.}}" target="_blank">audio.com</a></span>{{end}}
-                                    {{with .Params.bandcamp}}<span><a href="{{.}}" target="_blank">bandcamp</a></span>{{end}} 
-                                    {{with .Params.yt}}<span><a href="{{.}}" target="_blank">youtube</a></span>{{end}}
-                                </div>
-                            </div>
-                        </div>
+                        {{partial "item-card.html" .}}
                     {{end}}
-                </div>
-            {{end}}
+                {{end}}
+                {{if eq .Params.list "compositions"}}
+                    {{$ensemble := .Params.ensemble}}
+                    {{range where .Site.RegularPages ".Params.ensemble" "==" $ensemble}}
+                        {{partial "item-card.html" .}}
+                    {{end}}
+                {{end}}
+            </div>
         </div>
     </section>
 {{end}}

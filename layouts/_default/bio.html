@@ -1,0 +1,18 @@
+{{define "styles"}}
+    <link rel="stylesheet" href="/css/bio.css">
+{{end}}
+
+{{define "scripts"}}
+    <script src="/js/bio.js" defer></script>
+{{end}}
+
+{{define "main"}}
+    <section id="bio">
+        <div class="bio-content">
+            <div class="bio-text">
+                <h1>{{.Title}}</h1>
+                {{.Content}}
+            </div>
+        </div>
+    </section>
+{{end}}

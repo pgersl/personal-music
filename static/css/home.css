@@ -1,121 +1,221 @@
-h1::before {
-    content: "";
-    position: absolute;
-    right: 110%;
-    top: 50%;
-    height: 4px;
-    width: 40px;
-    background-color: var(--accent2);
+#hero {
+    padding: 12rem 0;
+    width: 100%;
+    background: linear-gradient(var(--background), rgba(0, 0, 0, 0), var(--background)), url(/media/img/base/on-hands.png) no-repeat center center/cover;
+    color: var(--text);
+    background-blend-mode: multiply;
 }
-
-h1::after {
-    content: "";
-    position: absolute;
-    left: 110%;
-    top: 50%;
-    height: 4px;
-    width: 40px;
-    background-color: var(--accent2);
-}
-
-#home-now .section-content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    gap: 3em;
-}
-#home-now img {
-    width: 200px;
-    border-radius: 1em;
-    border: solid 2px var(--accent2);
-}
-
-#home-newest img {
-    max-width: 170px;
-}
-
-#home-newest .section-content {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 3em;
-    align-items: stretch;
-}
-
-.home-newest-card {
+.hero-content {
+    max-width: 1200px;
+    width: 90%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2em;
-    background-color: var(--accent1);
-    padding: 1.5em;
-    width: 200px;
-    text-align: center;
-    border-radius: 1em;
-    border: solid 4px var(--accent4);
-    text-decoration: none;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 1em;
+    text-align: right;
+}
+#hero h1 {
+    font-size: 6rem;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeUp .6s ease forwards;
+}
+#hero p {
+    font-size: 1.5rem;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeUp .6s ease .3s forwards;
 }
 
-.home-newest-card:hover {
-    color: var(--light1);
-    background-color: var(--accent2);
+.quote-content {
+    width: 90%;
+    max-width: 1200px;
+    padding-block: 2rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1em;
+    background-color: var(--background);
+    color: var(--text);
+    font-style: italic;
+}
+.quote-content p {
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 200;
+}
+.quote-content span {
+    color: var(--primary);
+    margin-left: auto;
+}
+.quote-typewriter::after {
+    content: "▍";
+    margin-left: 2px;
+    animation: blink 1s step-end infinite;
+}
+.quote-typewriter.is-done::after {
+    display: none;
+}
+.quote-author {
+    opacity: 0;
+    transform: translateY(8px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.quote-author.is-visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
-.home-newest-card:active {
-    background-color: var(--accent3);
-}
-
-.home-newest-card-title {
-    font-size: var(--h3-size);
-}
-
-.home-newest-title {
-    font-size: var(--h4-size);
-}
-
-.i-list {
+.latest-content {
+    width: 90%;
+    max-width: 1200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 2em;
+    gap: 6rem;
+}
+.latest-card {
+    width: 30%;
+    min-width: 300px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    text-decoration: none;
+    color: var(--text);
+    transition: var(--transition);
+}
+.latest-card.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.latest-card img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1.2rem;
+    transition: var(--transition);
+}
+.latest-card span {
+    font-size: var(--tiny-size);
+    color: var(--primary);
+    margin-bottom: .4rem;
+    display: block;
+}
+.latest-card:hover {
+    transform: translateY(-10px);
+    color: inherit;
+}
+.latest-card:hover img {
+    box-shadow: 0px 20px 60px rgba(255, 255, 255, 0.3);
 }
 
-.i-list-item {
-    font-size: var(--h3-size);
-    font-weight: bold;
-    color: var(--accent2);
-    white-space: nowrap;
+h2 {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeUp .6s ease forwards;
 }
 
-.social-links {
+#now {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    gap: 4em;
+}
+.works {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 2em;
+    justify-content: center;
+    gap: 4em 7em;
+    width: 100%;
 }
 
-.social-link {
-    color: var(--accent1);
-    font-size: 60px;
+.works a {
+    text-decoration: none;
+    color: var(--text);
+    width: 250px;
     transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.works a:hover .works-category {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 60px rgba(255, 255, 255, 0.3);
+}
+.works-category {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1em;
+    padding: 1.5rem;
+    width: 100%;
+    border-radius: 1rem;
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.6s ease, transform 0.6s ease, box-shadow 0.3s ease;
+    will-change: opacity, transform;
+}
+.works-category.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.works-category legend {
+    text-align: right;
+    padding-inline: .5em;
+    font-size: var(--tiny-size);
+}
+.works-category a {
+    margin-inline: auto;
+    text-align: center;
 }
 
-.social-link:hover {
-    color: var(--accent2);
+#find-me {
+    width: 90%;
+    max-width: 1200px;
+    gap: 4rem;
+}
+.find-me-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    font-size: 4rem;
+}
+.find-me-links a {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    will-change: opacity, transform;
+}
+.find-me-links a.is-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-.social-link:active {
-    color: var(--accent3);
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
 }
 
-@media (max-width:550px) {
-    #home-now .section-content {
-        flex-direction: column;
+@media (max-width:450px) {
+    #hero {
+        padding: 4rem 0;
     }
 }

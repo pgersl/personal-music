@@ -1,0 +1,20 @@
+{{define "styles"}}
+    <link rel="stylesheet" href="/css/catalogue.css">
+{{end}}
+
+{{define "scripts"}}
+    <script src="/js/catalogue.js" defer></script>
+{{end}}
+
+{{define "main"}}
+    <section id="title">
+        <div class="title-section">
+            <h1>{{.Title}}</h1>
+        </div>
+    </section>
+    <section id="catalogue">
+        <div class="catalogue-content">
+            {{.Content}}
+        </div>
+    </section>
+{{end}}

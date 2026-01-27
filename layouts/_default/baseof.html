@@ -15,47 +15,38 @@
         {{block "styles" .}}{{end}}
 
         <script src="https://kit.fontawesome.com/9ab7bfa7fc.js" crossorigin="anonymous"></script>
-        <script data-goatcounter="https://musicpgersl.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+        <script data-goatcounter="https://pgersl.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
         <script src="/js/nav.js" defer></script>
         {{block "scripts" .}}{{end}}
-
-        {{block "title" .}}{{end}}
+        <title>{{.Title}}</title>
     </head>
     <body>
-        {{block "header" .}}{{end}}
         <nav>
             <div class="nav-content">
                 <div class="nav-links">
-                    <div class="main-nav-links">
-                        {{$workLinks := .Site.Menus.works}}
-                        {{range $index, $element := .Site.Menus.main}}
-                            {{if eq $index 1}}
-                                <div id="works-link">
-                                    <a class="nav-link">{{$element.Name}}</a>
-                                        <div class="works-nav-links">
-                                            {{range $workLinks}}
-                                                <a href="{{.PageRef}}" class="nav-link">{{.Name}}</a>
-                                            {{end}}
-                                        </div>
-                                </div>
-                            {{else}}
-                                <a class="nav-link" href="{{$element.PageRef}}">{{$element.Name}}</a>
-                            {{end}}
+                    {{$workLinks := .Site.Menus.works}}
+                    {{range $index, $element := .Site.Menus.main}}
+                        {{if eq $index 2}}
+                            <div id="works-link">
+                                <a class="nav-link">{{$element.Name}}</a>
+                                    <div class="works-nav-links">
+                                        {{range $workLinks}}
+                                            <a href="{{.PageRef}}" class="nav-link">{{.Name}}</a>
+                                        {{end}}
+                                    </div>
+                            </div>
+                        {{else}}
+                            <a class="nav-link" href="{{$element.PageRef}}">{{$element.Name}}</a>
                         {{end}}
-                    </div>
-                    <div class="sites-nav-links">
-                        {{range .Site.Menus.sites}}
-                            <a href="{{.URL}}" class="nav-link">{{.Name}} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        {{end}}
-                    </div>
+                    {{end}}
                 </div>
                 <div class="nav-utils">
                     {{if .IsTranslated}}
                         {{range .Translations}}
-                            <a href="{{.Permalink}}" class="utils-link"><img src="/media/img/base/{{.Language.Lang}}.png"></a>
+                            <a href="{{.Permalink}}" class="utils-link">{{.Language}}</a>
                         {{end}}
                     {{end}}
-                </div>
+                </div> 
             </div>
         </nav>
         <main>
@@ -65,34 +56,10 @@
             <div class="footer-content">
                 <div class="footer-container">
                     <strong>Petr Geršl</strong>
-                    <a class="footer-link" href="mailto:pgersl05@gmail.com">pgersl05@gmail.com</a>
-                    <a class="footer-link" href="tel:+420731347915">+420 731 347 915</a>
-                    <div class="footer-item">Brno, CZE</div>
+                    <p>{{ now.Format "2006" }}</p>
                 </div>
                 <div class="footer-container">
-                    {{if strings.HasPrefix .RelPermalink "/cs/"}}
-                        <strong>Prozkoumejte více:e</strong>
-                    {{else if strings.HasPrefix .RelPermalink "/fr/"}}
-                        <strong>En savoir plus</strong>
-                    {{else}}
-                        <strong>Explore more:</strong>
-                    {{end}}
-                    {{range .Site.Menus.sites}}
-                        <a href="{{.URL}}" class="footer-link">{{.Name}} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    {{end}}
-                </div>
-                <div class="footer-container">
-                    {{if strings.HasPrefix .RelPermalink "/cs/"}}
-                        <strong>Najděte mě:</strong>
-                    {{else if strings.HasPrefix .RelPermalink "/fr/"}}
-                        <strong>Trouvez-moi:</strong>
-                    {{else}}
-                        <strong>Find me:</strong>
-                    {{end}}
-                    <a class="footer-link" href="https://music.apple.com/us/artist/petr-ger%C5%A1l/1707910920" target="_blank">Apple Music</a>
-                    <a class="footer-link" href="https://open.spotify.com/artist/3jeeP8iPfuNDAXRqASrNV2?si=mhlbmzvPS7KAldVtFovbSg" target="_blank">Spotify</a>
-                    <a class="footer-link" href="https://www.youtube.com/@petrgersl" target="_blank">Youtube</a>
-                    <a class="footer-link" href="https://pgersl.bandcamp.com/" target="_blank">Bandcamp</a>
+                    <a id="linktree" href="https://linktr.ee/pgersl?utm_source=linktree_profile_share&ltsid=df6a1618-6fb2-4c28-929b-27bc68534dc5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M128 237.4L253.8 237.4L164.4 152L213.9 101L299.1 188.8L299.1 64L373 64L373 188.8L458.2 101.2L507.6 152L418.2 237.2L543.9 237.2L543.9 307.7L417.5 307.7L507.5 395.3L458.2 445.1L336 322.1L213.8 445.1L164.3 395.5L254.3 307.9L127.9 307.9L127.9 237.4zM298.9 408.8L372.8 408.8L372.8 576L298.9 576L298.9 408.8z"/></svg></a>
                 </div>
             </div>
         </footer>

@@ -2,7 +2,7 @@
     width: 100%;
     position: relative;
     background-color: none;
-    color: var(--light1);
+    color: var(--text);
     margin-bottom: 2em;
 }
 
@@ -40,14 +40,15 @@
     width: 20%;
     height: auto;
     cursor: zoom-in;
-    transition: all .3s;
+    border-radius: 1rem;
+    transition: all .6s;
 }
 .piece-cover:hover {
     box-shadow: 0 0 10px 10px #000000a2;
 }
 
-.audio-content h3 {
-    margin: 0 0 1em 0;
+.audio-content h2 {
+    margin: 0 0 .4rem 0;
 }
 
 .audio.focused {
@@ -76,15 +77,15 @@
 .play-pause {
     background: none;
     border: none;
-    font-size: var(--h4-size);
+    font-size: 1.5rem;
     width: 2ch;
-    color: var(--light1);
+    color: var(--text);
     cursor: pointer;
 }
 
 .progress-wrapper {
     position: relative;
-    width: 65%;
+    width: 80%;
     margin-top: -2px;
 }
 .audio.focused .progress-wrapper {
@@ -95,13 +96,13 @@
     width: 100%;
     -webkit-appearance: none;
     appearance: none;
-    background: var(--light2);
+    background: var(--text);
     height: 8px;
     cursor: pointer;
     border-radius: 200em;
 }
 .progress-bar::-webkit-slider-runnable-track, .progress-bar::-moz-range-track {
-    background: var(--light2);
+    background: var(--primary);
     height: 8px;
     cursor: pointer;
     border-radius: 200em;
@@ -112,17 +113,17 @@
     appearance: none;
     width: 14px;
     height: 14px;
-    background: var(--dark1);
+    background: var(--primary);
     cursor: pointer;
 }
 .progress-bar::-webkit-slider-thumb:hover, .progress-bar::-moz-range-thumb:hover {
-    background: var(--accent5);
+    background: var(--primary);
 }
 .progress-bar::-moz-range-thumb {
     opacity: 0;
     width: 14px;
     height: 14px;
-    background: var(--dark1);
+    background: var(--primary);
     cursor: pointer;
 }
 .progress-bar-filled {
@@ -130,13 +131,18 @@
     top: 6px;
     left: 0;
     height: 8px;
-    background: var(--accent5);
+    background: var(--primary);
     border-radius: 200em;
     z-index: 0;
 }
 
 .current-time, .duration {
     font-size: var(--tiny-size);
+    white-space: nowrap;
+}
+.progress-time, .time-wrapper {
+    white-space: nowrap;
+    width: fit-content;
 }
 
 @media (max-width:650px) {

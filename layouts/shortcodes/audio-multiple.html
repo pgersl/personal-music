@@ -3,7 +3,7 @@
     <div class="audio">
         <img class="piece-cover" src="/media/img/pieces/op-{{ .Get "cover" }}.png">
         <div class="audio-content">
-            <h3>{{ .Get "title" }}</h3>
+            <h2>{{ .Get "title" }}</h2>
 
             {{ $tracksList := .Get "tracks"}}
             {{ $tracks := split $tracksList "|"}}
