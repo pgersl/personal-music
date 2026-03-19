@@ -3,6 +3,10 @@ title: Katalog
 layout: catalogue
 ---
 {{< catalogue-year year="2025" >}}
+- Op. 48 ([Fantazie](/cs/works/orchestral/fantasy))
+- Op. 47 ([Tři vánoční valčíky](/cs/works/orchestral/three-christmas-waltzes))
+- Op. 46 ([Symfonické koledy](/cs/works/orchestral/symphonic-carols))
+- Op. 45 ([Zauberwalzer](/cs/works/orchestral/zauberwalzer))
 - Op. 44 ([Sommerabend](/cs/works/orchestral/sommerabend))
 - Op. 43 ([Luft von anderem Planeten](/cs/works/orchestral/luft-von-anderem-planeten))
 - Op. 42 ([Sturmpolka](/cs/works/orchestral/sturmpolka))

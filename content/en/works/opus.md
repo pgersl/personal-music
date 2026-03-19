@@ -3,6 +3,10 @@ title: Catalogue
 layout: catalogue
 ---
 {{< catalogue-year year="2025" >}}
+- Op. 48 ([Fantasy](/works/orchestral/fantasy))
+- Op. 47 ([Three Christmas Waltzes](/works/orchestral/three-christmas-waltzes))
+- Op. 46 ([Symphonic Carols](/works/orchestral/symphonic-carols))
+- Op. 45 ([Zauberwalzer](/works/orchestral/zauberwalzer))
 - Op. 44 ([Sommerabend](/works/orchestral/sommerabend))
 - Op. 43 ([Luft von anderem Planeten](/works/orchestral/luft-von-anderem-planeten))
 - Op. 42 ([Sturmpolka](/works/orchestral/sturmpolka))
