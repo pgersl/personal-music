@@ -1,0 +1,18 @@
+---
+title: Fanfare of Patriots
+layout: single
+type: composition
+date: 2026-04-01
+written: "2026"
+ensemble: orchestral
+length: "1' 28''"
+show: "brass ensemble, percussion"
+cover: /media/img/pieces/op-49.png
+info: true
+---
+
+{{< audio-single cover="49" title="Fanfare of Patriots" recording="fanfare-of-patriots" >}}
+
+# Program note
+
+*Fanfare of Patriots* is a short work for large brass ensemble and percussion, inspired by the ceremonial fanfares of William Walton. Built on bold harmonies and resonant textures, the piece seeks to evoke a sense of pride in one’s patrimoine.
